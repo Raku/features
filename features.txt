@@ -7,7 +7,7 @@ n   Niecza
 Basic control structures: rm+, rn+, n+
 Lexical variables: rm+, rn+, n+
 Basic types (strings, numbers): rm+, rn+, n+
-Basic file IO: rm+, rn+, n+
+Basic file IO: rm+, rn+, n+-
 Basic OO: rm+, rn+, n+
 Basic regex support: rm+, rn+, n+
 Subroutines: rm+, rn+, n+
@@ -17,16 +17,16 @@ Blocks: rm+, rn+, n+
 Classes, attributes, methods: rm+, rn+, n+
 Single inheritance: rm+, rn+, n+
 Multiple inheritance: rm+, rn+- (attributes don't work with MI), n+
-Read-only accessors: rm+, rn+, n+
+Read-only accessors: rm+, rn+, n-
 Read-write accessors: rm+, rn+, n+
 Default constructor: rm+ rn+ n+
-Natively typed attributes: rm- rn+
+Natively typed attributes: rm- rn+ n-
 
 = Roles
 Roles with attributes and methods: rm+, rn+, n+
-Composing roles into classes: rm+, rn+
+Composing roles into classes: rm+, rn+, n+- (runtime composition only)
 Composing roles into roles: rm+, rn+
-Parametric roles: rm+
+Parametric roles: rm+, n+-
 
 = Regexes
 Quantifiers, alternations: rm+ rn+ n+
@@ -34,18 +34,18 @@ Match objects: rm+ rn+ n+
 Named and positional captures: rm+ rn+ n+
 Conjunction: rm+ rn+ n-
 Longest-Token Matching: rm+- (only for constants) rn- n+
-Character classes: rm+- (no backlash escapes) rn+- (no backslash escapes)
+Character classes: rm+- (no backlash escapes) rn+- (no backslash escapes) n+
 Unicode properties: rm- rn- n-
-Embedded code blocks: rm+ rn-
-Variable interpolation: rm+- (only scalars) rn-
-Grammars: rm+ rn-
+Embedded code blocks: rm+ rn- n+
+Variable interpolation: rm+- (only scalars) rn- n+- (only scalars)
+Grammars: rm+ rn- n+
 
 = Signatures
 Positional args/params: rm+ rn+ n+
 Named args/params: rm+ rn+ n+
 Slurpy args/params: rm+ rn+ n+
 Multi-dimensional params: rm- rn+ n-
-Nested signatures: rm+ rn-
+Nested signatures: rm+ rn- n-
 is rw, is copy: rm+ rn+ n+
 Argument coercion: rm+ rn- n-
 Type captures: rm+ rn+ n-
@@ -59,25 +59,25 @@ Rat type: rm+  rn+ n+
 Hashes, Pairs: rm+ rn+ n+
 Lists, arrays, map, grep: rm+ rn+ n+
 Lazy lists: rm+ rn+ n+
-LoL: rm- rn+-
-Ranges: rm+ rn+
-Sets, KeySet, KeyBag, ...: rn-
-Buf: rm+ rn-
-Native operators: rm- rn-
+LoL: rm- rn+- n-
+Ranges: rm+ rn+ n+
+Sets, KeySet, KeyBag, ...: rn- n-
+Buf: rm+ rn- n-
+Native operators: rm- rn- n-
 
 = Multi dispatch
 Multi method dispatch: rm+ rn+ n+
 Multi sub dispatch: rm+ rn+ n+
-Protos: rm+- (outdated specification) rn+
+Protos: rm+- (outdated specification) rn+ n-
 Based on arity: rm+ rn+ n+
 Based on types: rm+ rn+ n+
-Proper narrowness analysis: rm+ rn+
-Additional constraints: rm+
+Proper narrowness analysis: rm+ rn+ n+- (no subtypes)
+Additional constraints: rm+ n-
 
 = Module management
-use: rm+- (limited import lists) rn+-(limited import lists)
+use: rm+- (limited import lists) rn+-(limited import lists) n+- (no import lists)
 need:
-require:
+require: n+- (precompilation required)
 Basic module versioning: rm+ rn-
 
 = Meta operators
@@ -93,7 +93,7 @@ Hyper: rm+ rn- n+
 Overloading operators: rm+ n+
 Defining new operators: rm+ n+
 Precedence and associativity of new operators: rm- rn- n+
-Basic macros: rm- rn-
+Basic macros: rm- rn- n-
 Hygienic macros: rm- rn- n-
 
 = Concurrency
