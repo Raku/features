@@ -58,6 +58,7 @@ Rat type: rm+  rn+ n+
 Hashes, Pairs: rm+ rn+ n+
 Lists, arrays, map, grep: rm+ rn+ n+
 Lazy lists: rm+ rn+ n+
+LoL: rm- rn+-
 Ranges: rm+ rn+
 Sets, KeySet, KeyBag, ...: rn-
 Buf: rm+ rn-
@@ -71,7 +72,7 @@ Based on types: rm+ rn+ n+
 Proper narrowness analysis: rm+ rn+
 Additional constraints: rm+
 
-= Module managament
+= Module management
 use: rm+- (limited import lists) rn+-(limited import lists)
 need:
 require:
@@ -84,7 +85,7 @@ Negation: rm+ rn+ n+
 Reverse: rm+ rn+ n+
 Zip: rm+- (only two lists) rn+ n+
 Cross: rm+- (only two lists) rn+ n+
-Hyper: rm+
+Hyper: rm+ rn-
 
 = Syntax flexibility
 Overloading operators: rm+ n+
