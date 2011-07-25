@@ -1,7 +1,6 @@
 use 5.010;
 use strict;
 use warnings;
-use utf8;
 use autodie;
 
 
@@ -9,6 +8,7 @@ use Data::Dumper;
 my $comment = qr{^\s*(?:\#.*)?$};
 
 open my $f, '<:encoding(UTF-8)', 'features.txt';
+binmode(STDOUT, ":encoding(UTF-8)");
 my %abbr_name;
 my %abbr_index;
 my $index = 0;
@@ -44,6 +44,7 @@ while (<$f>) {
                 die "Multiple data points for abbr '$abbr' at line $. -- possible typo?"
                     if $sections[-1][-1][$i];
                 # TODO: don't throw away the comments;
+                $rating = "\N{U+00B1}" if $rating eq "+-";
                 $sections[-1][-1][$i] = $rating;
             }
         }
@@ -70,10 +71,10 @@ sub write_html {
     $t->param(columns   => 1 + @compilers);
 
     my %status_map = (
-        '+'     => 'implemented',
-        '+-'    => 'partial',
-        '-'     => 'missing',
-        ''      => 'unknown',
+        '+'          => 'implemented',
+        "\N{U+00B1}" => 'partial',
+        '-'          => 'missing',
+        ''           => 'unknown',
     );
 
     my @rows;

@@ -4,12 +4,31 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
     <title>Feature comparison blah</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <style type="text/css">
-        .implemented { background-color: green  }
-        .partial     { background-color: yellow }
-        .missing     { background-color: red    }
+        .implemented {
+            background-color: #11AA11;
+            color:            white;
+        }
+        .partial     {
+            background-color: #fff8dc;
+            color:            black;
+        }
+        .missing     {
+            background-color: #ff7f50;
+            color:            black;
+        }
         .implemented, .partial, .missing {
-            text-align: center
+            text-align:  center;
+            width:       150px;
+            font-weight: bold;
+            font-family: monospace;
+            font-size:   18px;
+        }
+
+        .subsection {
+            padding-top: 1em;
+            text-align: left;
         }
     </style>
 
@@ -18,11 +37,14 @@
     <h1>Feature comparison of Perl 6 compilers</h1>
 
     <h2>Legend</h2>
-    <table>
-        <tr><td class="implemented">+</td> <td>implemented</td></tr>
-        <tr><td class="partial">+-</td><td>partially implemented</td></tr>
-        <tr><td class="missing">-</td> <td>not yet implemented</td></tr>
-    </table>
+    <dl>
+        <dt class="implemented">+</dt>
+            <dd>implemented</dd>
+        <dt class="partial">&#177;</dt>
+            <dd>partially implemented</dd>
+        <dt class="missing">-</dt>
+            <dd>not yet implemented</dd>
+    </dl>
 
     <h2>Features</h2>
     <table>
@@ -38,13 +60,11 @@
             <%loop rows%>
                 <tr>
                 <%if section%>
-                    <th colspan="<%var columns%>"><%var section%></th>
+                    <th class="subsection"><%var section%></th>
                 <%else%>
                     <td><%var feature%></td>
                     <%loop compilers%>
-                        <td class="<%var class%>">
-                            <%var status%>
-                        </td>
+                        <td class="<%var class%>"><%var status%></td>
                     <%/loop%>
                 <%/if%>
                 </tr>
