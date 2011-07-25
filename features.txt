@@ -46,7 +46,7 @@ Named args/params: rm+ rn+ n+
 Slurpy args/params: rm+ rn+ n+
 Multi-dimensional params: rm- rn+ n-
 Nested signatures: rm+ rn-
-is rw, is copy: rm+ rn+
+is rw, is copy: rm+ rn+ n+
 Argument coercion: rm+ rn- n-
 Type captures: rm+ rn+ n-
 
@@ -87,7 +87,7 @@ Negation: rm+ rn+ n+
 Reverse: rm+ rn+ n+
 Zip: rm+- (only two lists) rn+ n+
 Cross: rm+- (only two lists) rn+ n+
-Hyper: rm+ rn-
+Hyper: rm+ rn- n+
 
 = Syntax flexibility
 Overloading operators: rm+ n+
