@@ -33,7 +33,7 @@ Quantifiers, alternations: rm+ rn+ n+
 Match objects: rm+ rn+ n+
 Named and positional captures: rm+ rn+ n+
 Conjunction: rm- rn-
-Longest-Token Matching: rm+- (only for constants) rn- rm+
+Longest-Token Matching: rm+- (only for constants) rn- n+
 Character classes: rm+- (no backlash escapes) rn-
 Embedded code blocks: rm+ rn-
 Variable interpolation: rm+- (only scalars) rn-
@@ -94,7 +94,7 @@ Basic macros: rm- rn-
 Hygienic macros: rm- rn- n-
 
 = Concurrency
-Basic threads: rm- rm- n+
+Basic threads: rm- rn- n+
 Synchronization: rm- rn- n+-
 Parallelized hyper operators: rm- rn-
 
