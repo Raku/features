@@ -19,11 +19,13 @@
             color:            black;
         }
         .implemented, .partial, .missing {
-            text-align:  center;
-            width:       150px;
-            font-weight: bold;
-            font-family: monospace;
-            font-size:   18px;
+            text-align:         center;
+            width:              150px;
+            font-weight:        bold;
+            font-family:        monospace;
+            font-size:          18px;
+            -moz-border-radius: 15px;
+            border-radius:      15px;
         }
 
         .subsection {
@@ -64,7 +66,7 @@
                 <%else%>
                     <td><%var feature%></td>
                     <%loop compilers%>
-                        <td class="<%var class%>"><%var status%></td>
+                        <td><div class="<%var class%>"><%var status%></div></td>
                     <%/loop%>
                 <%/if%>
                 </tr>
