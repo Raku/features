@@ -34,7 +34,8 @@ Match objects: rm+ rn+ n+
 Named and positional captures: rm+ rn+ n+
 Conjunction: rm+ rn+ n-
 Longest-Token Matching: rm+- (only for constants) rn- n+
-Character classes: rm+- (no backlash escapes) rn-
+Character classes: rm+- (no backlash escapes) rn+- (no backslash escapes)
+Unicode properties: rm- rn- n-
 Embedded code blocks: rm+ rn-
 Variable interpolation: rm+- (only scalars) rn-
 Grammars: rm+ rn-
