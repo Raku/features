@@ -1,0 +1,11 @@
+Feature overview matrix for Perl 6 compilers
+
+This is an attempt to collect an overview of implemented features in
+contemporary Perl 6 compilers.
+
+The idea is to have a concise and easy-to-write source file which contains the
+data, and a script that converts this information into a format that is easy
+to read, like a colored HTML table or so.
+
+Your contribution is very welcome. Please join our discussions in #perl6,
+http://perl6.org/community/irc

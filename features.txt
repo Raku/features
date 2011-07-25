@@ -1,0 +1,110 @@
+= ABBREVIATIONS
+rm  Rakudo (branch master)
+rm  Rakudo (branch nom)
+n   Niecza 
+
+= Basics
+Basic control structures: rm+, rn+, n+
+Lexical variables: rm+, rn+, n+
+Basic types (strings, numbers): rm+, rn+, n+
+Basic file IO: rm+, rn+, n+
+Basic OO: rm+, rn+, n+
+Basic regex support: rm+, rn+, n+
+Subroutines: rm+, rn+, n+
+Blocks: rm+, rn+, n+
+
+= Classes
+Classes, attributes, methods: rm+, rn+, n+
+Single inheritance: rm+, rn+, n+
+Multiple inheritance: rm+, rn+- (attributes don't work with MI), n+
+Read-only accessors: rm+, rn+, n+
+Read-write accessors: rm+, rn+, n+
+Default constructor: rm+ rn+ n+
+Natively typed attributes: rm- rn+
+
+= Roles
+Roles with attributes and methods: rm+, rn+, n+
+Composing roles into classes: rm+, rn+
+Composing roles into roles: rm+, rn+
+Parametric roles: rm+
+
+= Regexes
+Quantifiers, alternations:
+Match objects:
+Named and positional captures:
+Conjunction:
+Longest-Token Matching:
+Character classes:
+Embedded code blocks:
+Variable interpolation:
+Grammars:
+
+= Signatures
+Positional args/params: rm+ rn+ n+
+Named args/params: rm+ rn+ n+
+Slurpy args/params: rm+ rn+ n+
+Multi-dimensional params: rm- rn+
+Nested signatures: rm+ rn-
+is rw, is copy: rm+ rn+
+Argument coercion: rm+ rn-
+Type captures
+
+= Built-in types and functions
+Strings, split, join, case folding, substr:
+Basic numbers, arithmethic operations:
+Big integers: rm- rn- n+
+Complex numbers:
+Rat type: rm+  rn+ n+
+Hashes, Pairs:
+Lists, arrays, map, grep:
+Lazy lists:
+Ranges:
+Sets, KeySet, KeyBag, ...:
+Buf:
+
+= Multi dispatch
+Multi method dispatch:
+Multi sub dispatch:
+Protos:
+Based on arity:
+Based on types:
+Proper narrowness analysis:
+Additional constraints:
+
+= Module managament
+use: rm+- (limited import lists) rn+-(limited import lists)
+need:
+require:
+Basic module versioning: rm+ rn-
+
+= Meta operators
+Reduction: rm+ rn+ n+
+Assignment: rm+ rn+ n+
+Negation: rm+ rn+ n+
+Reverse: rm+ rn+ n+
+Zip: rm+- (only two lists) rn+ n+
+Cross: rm+- (only two lists) rn+ n+
+Hyper: rm+
+
+= Syntax flexibility
+Overloading operators: rm+ n+
+Defining new operators: rm+ n+
+Precedence and associativity of new operators: rm- rn- n+
+Basic macros: rm- rn-
+Hygienic macros: rm- rn- n-
+
+= Concurrency
+Basic threads: rm- rm- n+
+Synchronization: rm- rn- n+-
+Parallelized hyper operators: rm- rn-
+
+= Misc
+Junctions, autothreading: rm+ rn+ n+
+Whatever-currying: rm+ rn+- n+
+REPL: rm+ rn+ n+
+
+= Meta-Object Programming
+Introspection: rm+ rn+-
+Adding methods: rm+ rn+
+Inheritance manipulation:
+Role composition:
