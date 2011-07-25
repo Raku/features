@@ -43,9 +43,8 @@ while (<$f>) {
                 my $i = $abbr_index{$abbr};
                 die "Multiple data points for abbr '$abbr' at line $. -- possible typo?"
                     if $sections[-1][-1][$i];
-                # TODO: don't throw away the comments;
                 $rating = "\N{U+00B1}" if $rating eq "+-";
-                $sections[-1][-1][$i] = $rating;
+                $sections[-1][-1][$i] = [$rating, $comment];
             }
         }
     }
@@ -77,6 +76,9 @@ sub write_html {
         '?'          => 'unknown',
     );
 
+    my $footnote_counter = 0;
+    my %footnotes;
+
     my @rows;
     for my $s (@sections) {
         my @sec = @$s;
@@ -86,15 +88,32 @@ sub write_html {
             my @row = @$_;
             $ht_row{feature}  = shift @row;
             $ht_row{compilers} = [ map {
-                {
-                    status => $row[$_] // '?',
-                    class  => $status_map{$row[$_] // '?'},
+                my $h = {
+                    status => $row[$_][0] // '?',
+                    class  => $status_map{$row[$_][0] // '?'},
+                };
+                if (my $f = $row[$_][1]) {
+                    $h->{footnote} = ($footnotes{$f} //= ++$footnote_counter);
                 }
+                $h;
             } 0..($index - 1) ];
             push @rows, \%ht_row;
         }
     }
     $t->param(rows => \@rows);
+
+    {
+        my @footnotes = sort { $footnotes{$a} <=> $footnotes{$b} }
+                            keys %footnotes;
+        my @f = map {
+            {
+                id   => $footnotes{$_},
+                text => $_,
+            }
+        } @footnotes;
+        $t->param(footnotes => \@f);
+    }
+
     if (@ARGV) {
         my $filename = shift @ARGV;
         open my $out, '>:encoding(UTF-8)', $filename;

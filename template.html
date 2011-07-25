@@ -3,22 +3,22 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-    <title>Feature comparison blah</title>
+    <title>Feature comparison of Perl 6 compilers</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <style type="text/css">
-        .implemented {
+        .implemented, .implemented a {
             background-color: #3c3;
             color:            white;
         }
-        .partial     {
+        .partial    , .partial a     {
             background-color: #fb4;
             color:            #333;
         }
-        .missing     {
+        .missing    , .missing a     {
             background-color: #f55;
             color:            white;
         }
-        .unknown     {
+        .unknown    , .unknown a      {
             background-color: #ccc;
             color:            white;
         }
@@ -30,6 +30,9 @@
             font-size:          18px;
             -moz-border-radius: 15px;
             border-radius:      15px;
+        }
+        .footnote_link {
+            font-size: 80%
         }
 
         .subsection {
@@ -72,13 +75,20 @@
                 <%else%>
                     <td><%var feature%></td>
                     <%loop compilers%>
-                        <td><div class="<%var class%>"><%var status%></div></td>
+                        <td><div class="<%var class%>"><%var status%><%if footnote%> <a href="#footnote_<%var footnote%>" class="footnote_link">(<%var footnote%>)</a><%/if%></div></td>
                     <%/loop%>
                 <%/if%>
                 </tr>
             <%/loop%>
         </tbody>
     </table>
+
+    <h3>Footnotes</h3>
+    <ol>
+        <%loop footnotes%>
+            <li id="footnote_<%var id%>"><%var text%></li>
+        <%/loop%>
+    </ol>
 
 </body>
 </html>
