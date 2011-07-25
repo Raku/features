@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Feature comparison blah</title>
+    <style type="text/css">
+        .implemented { background-color: green  }
+        .partial     { background-color: yellow }
+        .missing     { background-color: red    }
+    </style>
+
+</head>
+<body>
+    <h1>Feature comparison of Perl 6 compilers</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Feature</th>
+                <%loop compilers%>
+                    <th><%var name%></th>
+                <%/loop%>
+            </tr>
+        </thead>
+        <tbody>
+            <%loop rows%>
+                <tr>
+                <%if section%>
+                    <th colspan="<%var columns%>"><%var section%></th>
+                <%else%>
+                    <td><%var feature%></td>
+                    <%loop compilers%>
+                        <td class="<%var status%>">
+                            <%var status%>
+                        </td>
+                    <%/loop%>
+                <%/if%>
+                </tr>
+            <%/loop%>
+        </tbody>
+    </table>
+</body>
+</html>
+

@@ -50,8 +50,8 @@ Argument coercion: rm+ rn- n-
 Type captures: rm+ rn+ n-
 
 = Built-in types and functions
-Strings, split, join, case folding, substr:
-Basic numbers, arithmethic operations:
+Strings, split, join, case folding, substr: rm+ rn+ n+
+Basic numbers, arithmethic operations: rm+ rn+ n+
 Big integers: rm- rn- n+
 Complex numbers: rm+ rn+ n+
 Rat type: rm+  rn+ n+
