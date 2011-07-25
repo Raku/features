@@ -12,13 +12,17 @@
         }
         .partial     {
             background-color: #fb4;
-            color:            black;
+            color:            #333;
         }
         .missing     {
-            background-color: #f22;
+            background-color: #f55;
             color:            white;
         }
-        .implemented, .partial, .missing {
+        .unknown     {
+            background-color: #ccc;
+            color:            white;
+        }
+        .implemented, .partial, .missing, .unknown {
             text-align:         center;
             width:              150px;
             font-weight:        bold;
@@ -46,6 +50,8 @@
             <dd>partially implemented</dd>
         <dt class="missing">-</dt>
             <dd>not yet implemented</dd>
+        <dt class="unknown">?</dt>
+            <dd>unknown status</dd>
     </dl>
 
     <h2>Features</h2>

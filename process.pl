@@ -74,7 +74,7 @@ sub write_html {
         '+'          => 'implemented',
         "\N{U+00B1}" => 'partial',
         '-'          => 'missing',
-        ''           => 'unknown',
+        '?'          => 'unknown',
     );
 
     my @rows;
@@ -87,8 +87,8 @@ sub write_html {
             $ht_row{feature}  = shift @row;
             $ht_row{compilers} = [ map {
                 {
-                    status => $row[$_] // '',
-                    class  => $status_map{$row[$_] // ''},
+                    status => $row[$_] // '?',
+                    class  => $status_map{$row[$_] // '?'},
                 }
             } 0..($index - 1) ];
             push @rows, \%ht_row;
