@@ -8,11 +8,23 @@
         .implemented { background-color: green  }
         .partial     { background-color: yellow }
         .missing     { background-color: red    }
+        .implemented, .partial, .missing {
+            text-align: center
+        }
     </style>
 
 </head>
 <body>
     <h1>Feature comparison of Perl 6 compilers</h1>
+
+    <h2>Legend</h2>
+    <table>
+        <tr><td class="implemented">+</td> <td>implemented</td></tr>
+        <tr><td class="partial">+-</td><td>partially implemented</td></tr>
+        <tr><td class="missing">-</td> <td>not yet implemented</td></tr>
+    </table>
+
+    <h2>Features</h2>
     <table>
         <thead>
             <tr>
@@ -30,7 +42,7 @@
                 <%else%>
                     <td><%var feature%></td>
                     <%loop compilers%>
-                        <td class="<%var status%>">
+                        <td class="<%var class%>">
                             <%var status%>
                         </td>
                     <%/loop%>
@@ -39,6 +51,7 @@
             <%/loop%>
         </tbody>
     </table>
+
 </body>
 </html>
 

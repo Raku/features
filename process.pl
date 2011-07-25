@@ -85,7 +85,10 @@ sub write_html {
             my @row = @$_;
             $ht_row{feature}  = shift @row;
             $ht_row{compilers} = [ map {
-                { status => $status_map{$row[$_] // ''} }
+                {
+                    status => $row[$_] // '',
+                    class  => $status_map{$row[$_] // ''},
+                }
             } 0..($index - 1) ];
             push @rows, \%ht_row;
         }

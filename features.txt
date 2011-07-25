@@ -1,6 +1,6 @@
 = ABBREVIATIONS
-rm  Rakudo (branch master)
-rn  Rakudo (branch nom)
+rm  Rakudo/master
+rn  Rakudo/nom
 n   Niecza 
 
 = Basics
