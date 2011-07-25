@@ -95,5 +95,12 @@ sub write_html {
         }
     }
     $t->param(rows => \@rows);
-    say $t->output;
+    if (@ARGV) {
+        my $filename = shift @ARGV;
+        open my $out, '>:encoding(UTF-8)', $filename;
+        print { $out } $t->output;
+        close $out;
+    } else {
+        print $t->output;
+    }
 }

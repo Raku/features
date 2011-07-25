@@ -7,5 +7,9 @@ The idea is to have a concise and easy-to-write source file which contains the
 data, and a script that converts this information into a format that is easy
 to read, like a colored HTML table or so.
 
+A first version of that script is process.pl, which needs perl 5.10 or
+newer and HTML::Template::Compiled from CPAN. It writes the xhtml output
+to standard output, or to the filename specified on the command line.
+
 Your contribution is very welcome. Please join our discussions in #perl6,
 http://perl6.org/community/irc
