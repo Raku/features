@@ -29,47 +29,47 @@ Composing roles into roles: rm+, rn+
 Parametric roles: rm+
 
 = Regexes
-Quantifiers, alternations:
-Match objects:
-Named and positional captures:
-Conjunction:
-Longest-Token Matching:
-Character classes:
-Embedded code blocks:
-Variable interpolation:
-Grammars:
+Quantifiers, alternations: rm+ rn+ n+
+Match objects: rm+ rn+ n+
+Named and positional captures: rm+ rn+ n+
+Conjunction: rm- rn-
+Longest-Token Matching: rm+- (only for constants) rn- rm+
+Character classes: rm+- (no backlash escapes) rn-
+Embedded code blocks: rm+ rn-
+Variable interpolation: rm+- (only scalars) rn-
+Grammars: rm+ rn-
 
 = Signatures
 Positional args/params: rm+ rn+ n+
 Named args/params: rm+ rn+ n+
 Slurpy args/params: rm+ rn+ n+
-Multi-dimensional params: rm- rn+
+Multi-dimensional params: rm- rn+ n-
 Nested signatures: rm+ rn-
 is rw, is copy: rm+ rn+
-Argument coercion: rm+ rn-
-Type captures
+Argument coercion: rm+ rn- n-
+Type captures: rm+ rn+ n-
 
 = Built-in types and functions
 Strings, split, join, case folding, substr:
 Basic numbers, arithmethic operations:
 Big integers: rm- rn- n+
-Complex numbers:
+Complex numbers: rm+ rn+ n+
 Rat type: rm+  rn+ n+
-Hashes, Pairs:
-Lists, arrays, map, grep:
-Lazy lists:
-Ranges:
-Sets, KeySet, KeyBag, ...:
-Buf:
+Hashes, Pairs: rm+ rn+ n+
+Lists, arrays, map, grep: rm+ rn+ n+
+Lazy lists: rm+ rn+ n+
+Ranges: rm+ rn+
+Sets, KeySet, KeyBag, ...: rn-
+Buf: rm+ rn-
 
 = Multi dispatch
-Multi method dispatch:
-Multi sub dispatch:
-Protos:
-Based on arity:
-Based on types:
-Proper narrowness analysis:
-Additional constraints:
+Multi method dispatch: rm+ rn+ n+
+Multi sub dispatch: rm+ rn+ n+
+Protos: rm+- (outdated specification) rn+
+Based on arity: rm+ rn+ n+
+Based on types: rm+ rn+ n+
+Proper narrowness analysis: rm+ rn+
+Additional constraints: rm+
 
 = Module managament
 use: rm+- (limited import lists) rn+-(limited import lists)
