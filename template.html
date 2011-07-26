@@ -42,6 +42,7 @@
             font-size:  smaller;
             font-style: italic;
         }
+        sup { position:absolute; }
     </style>
 
 </head>
@@ -78,7 +79,7 @@
                 <%else%>
                     <td><%var feature%></td>
                     <%loop compilers%>
-                        <td><div class="<%var class%>"><%var status%><%if footnote%> <a href="#footnote_<%var footnote%>" title="<%var ftext escape=html%>" class="footnote_link">(<%var footnote%>)</a><%/if%></div></td>
+                        <td><div class="<%var class%>"><%var status%><%if footnote%><sup>&nbsp;<a href="#footnote_<%var footnote%>" title="<%var ftext escape=html%>" class="footnote_link"><%var footnote%></a></sup><%/if%></div></td>
                     <%/loop%>
                 <%/if%>
                 </tr>
