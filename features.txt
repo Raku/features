@@ -1,7 +1,7 @@
 = ABBREVIATIONS
-rm  Rakudo/master
-rn  Rakudo/nom
-n   Niecza 
+rm  Rakudo/master http://rakudo.org/
+rn  Rakudo/nom http://pmthium.com/2011/02/08/new-nqp-repository-new-nom-rakudo-branch/
+n   Niecza https://github.com/sorear/niecza
 
 = Basics
 Basic control structures: rm+ rn+ n+

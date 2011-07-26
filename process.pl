@@ -10,6 +10,7 @@ my $comment = qr{^\s*(?:\#.*)?$};
 open my $f, '<:encoding(UTF-8)', 'features.txt';
 binmode(STDOUT, ":encoding(UTF-8)");
 my %abbr_name;
+my %abbr_link;
 my %abbr_index;
 my $index = 0;
 my $in_abbr_section;
@@ -29,8 +30,10 @@ while (<$f>) {
     }
     else {
         if ($in_abbr_section) {
-            my ($abbr, $name)  = split /\s+/, $_, 2;
+            my ($abbr, $rest)  = split /\s+/, $_, 2;
+            my ($name, $url)   = split /\s+(?=http)/, $rest, 2;
             $abbr_name{$abbr}  = $name;
+            $abbr_link{$abbr}  = $url;
             $abbr_index{$abbr} = ++$index;
         }
         else {
@@ -63,7 +66,10 @@ sub write_html {
     );
     my @compilers;
     for (keys %abbr_index) {
-        $compilers[$abbr_index{$_}] = {name => $abbr_name{$_}};
+        $compilers[$abbr_index{$_}] = {
+            name => $abbr_name{$_},
+            link => $abbr_link{$_},
+        };
     }
     shift @compilers;
     $t->param(compilers => \@compilers);
