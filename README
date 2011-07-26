@@ -11,5 +11,15 @@ A first version of that script is process.pl, which needs perl 5.10 or
 newer and HTML::Template::Compiled from CPAN. It writes the xhtml output
 to standard output, or to the filename specified on the command line.
 
+A feature should appear in the table if any of the following applies:
+ * it is very useful to the end user
+ * it is a distinguished Perl 6 feature (e.g. grammars, junctions)
+ * it is hard to implement
+ * it showcases differences between compilers
+ * its implementation drives spec development
+
+The "forgiveness > permission" principle applies, and the authors are
+very forgiving.
+
 Your contribution is very welcome. Please join our discussions in #perl6,
 http://perl6.org/community/irc
