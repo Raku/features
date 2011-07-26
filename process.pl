@@ -8,7 +8,11 @@ $ENV{TZ}='Z';
 
 my $comment = qr{^\s*(?:\#.*)?$};
 
-open my $f, '<:encoding(UTF-8)', 'features.txt';
+my $features = 'features.txt';
+my $mtime = (stat $features)[9];
+
+
+open my $f, '<:encoding(UTF-8)', $features;
 binmode(STDOUT, ":encoding(UTF-8)");
 my %abbr_name;
 my %abbr_link;
@@ -76,7 +80,8 @@ sub write_html {
     $t->param(compilers => \@compilers);
     $t->param(columns   => 1 + @compilers);
    
-    $t->param(when => POSIX::ctime(time) . " " . (POSIX::tzname())[0] );
+    $t->param(when => POSIX::ctime($mtime) . " " . (POSIX::tzname())[0] );
+    $t->param(now  => POSIX::ctime(time)   . " " . (POSIX::tzname())[0] );
 
     my %status_map = (
         '+'          => 'implemented',
