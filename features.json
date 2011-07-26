@@ -117,7 +117,7 @@
         "status"  : "rm+- (no backslash escapes) rn+- (no backslash escapes) n+"
       }, {
         "item"    : "Unicode properties",
-        "status"  : "rm- rn- n-"
+        "status"  : "rm+- (outdated specification) rn- n-"
       }, {
         "item"    : "Embedded code blocks",
         "status"  : "rm+ rn- n+"
