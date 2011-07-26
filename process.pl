@@ -108,6 +108,7 @@ sub write_html {
                 };
                 if (my $f = $row[$_][1]) {
                     $h->{footnote} = ($footnotes{$f} //= ++$footnote_counter);
+                    $h->{ftext} = $f;
                 }
                 $h;
             } 0..($index - 1) ];
