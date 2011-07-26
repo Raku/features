@@ -19,7 +19,7 @@ State variables: rm- rn- n+
 = Classes
 Classes, attributes, methods: rm+ rn+ n+
 Single inheritance: rm+ rn+ n+
-Multiple inheritance: rm+ rn+- (attributes don't work with MI) n+
+Multiple inheritance: rm+ rn+ n+
 Read-only accessors: rm+ rn+ n-
 Read-write accessors: rm+ rn+ n+
 Default constructor: rm+ rn+ n+
