@@ -3,8 +3,9 @@ use strict;
 use warnings;
 use autodie;
 
+use POSIX;
+$ENV{TZ}='Z';
 
-use Data::Dumper;
 my $comment = qr{^\s*(?:\#.*)?$};
 
 open my $f, '<:encoding(UTF-8)', 'features.txt';
@@ -74,6 +75,8 @@ sub write_html {
     shift @compilers;
     $t->param(compilers => \@compilers);
     $t->param(columns   => 1 + @compilers);
+   
+    $t->param(when => POSIX::ctime(time) . " " . (POSIX::tzname())[0] );
 
     my %status_map = (
         '+'          => 'implemented',
