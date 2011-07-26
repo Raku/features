@@ -11,7 +11,10 @@ Basic file IO: rm+, rn+, n+-
 Basic OO: rm+, rn+, n+
 Basic regex support: rm+, rn+, n+
 Subroutines: rm+, rn+, n+
-Blocks: rm+, rn+, n+
+Blocks: rm+ rn+ n+
+Special variables: rm+ (outdated specification) rn+ n+
+Constants: rm- rn+- (only literals) n+
+State variables: rm- rn- n+
 
 = Classes
 Classes, attributes, methods: rm+, rn+, n+
@@ -34,11 +37,12 @@ Match objects: rm+ rn+ n+
 Named and positional captures: rm+ rn+ n+
 Conjunction: rm+ rn+ n-
 Longest-Token Matching: rm+- (only for constants) rn- n+
-Character classes: rm+- (no backlash escapes) rn+- (no backslash escapes) n+
+Character classes: rm+- (no backslash escapes) rn+- (no backslash escapes) n+
 Unicode properties: rm- rn- n-
 Embedded code blocks: rm+ rn- n+
 Variable interpolation: rm+- (only scalars) rn- n+- (only scalars)
 Grammars: rm+ rn- n+
+Matching streams: rm- rn-
 
 = Signatures
 Positional args/params: rm+ rn+ n+
@@ -111,3 +115,4 @@ Introspection: rm+ rn+-
 Adding methods: rm+ rn+
 Inheritance manipulation:
 Role composition:
+Feed operators: rm+- rn+-
