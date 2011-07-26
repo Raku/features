@@ -77,7 +77,9 @@
                 <%if section%>
                     <th class="subsection"><%var section%></th>
                 <%else%>
-                    <td><%var feature%></td>
+                <td><%if link%><a href="<%var link%>"><%var feature%></a>
+                    <%else%><%var feature%>
+                    <%/if%></td>
                     <%loop compilers%>
                         <td><div class="<%var class%>"><%var status%><%if footnote%><sup class="footnote_link">&nbsp;<a href="#footnote_<%var footnote%>" title="<%var ftext%>"><%var footnote%></a></sup><%/if%></div></td>
                     <%/loop%>

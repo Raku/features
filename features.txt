@@ -68,8 +68,8 @@ Ranges: rm+ rn+ n+
 Sets, KeySet, KeyBag, ...: rn- n-
 Buf: rm+ rn- n-
 Native operators: rm- rn- n-
-Compact arrays: rm- rn- n-
-Shaped arrays/hashes: rm- rn- n-
+Compact arrays http://perlcabal.org/syn/S09.html#Compact_arrays: rm- rn- n-
+Shaped arrays/hashes http://perlcabal.org/syn/S09.html#Fixed-size_arrays: rm- rn- n-
 
 = Multi dispatch
 Multi method dispatch: rm+ rn+ n+

@@ -17,7 +17,7 @@ binmode(STDOUT, ":encoding(UTF-8)");
 my %abbr_name;
 my %abbr_link;
 my %abbr_index;
-my $index = 0;
+my $index = 1;
 my $in_abbr_section;
 my @sections;
 
@@ -42,8 +42,11 @@ while (<$f>) {
             $abbr_index{$abbr} = ++$index;
         }
         else {
-            my ($name, $rest) = split /:\s*/, $_, 2;
-            push @{$sections[-1]}, [$name];
+            my ($section, $rest) = split qr{:(?!//)\s*}, $_, 2;
+            my ($name, $url)     = split /\s+(?=http)/, $section, 2;
+#            use Data::Dumper;
+#            print Dumper [$name, $url, $rest];
+            push @{$sections[-1]}, [$name, $url];
             while ($rest =~ m/(\w+)([+-]+)\s*(?:\(([^()]+)\)\s*)?/g) {
                 my ($abbr, $rating, $comment) = ($1, $2, $3);
                 die "Unknown abbreviation '$abbr'"
@@ -100,7 +103,8 @@ sub write_html {
         for (@sec) {
             my %ht_row;
             my @row = @$_;
-            $ht_row{feature}  = shift @row;
+            $ht_row{feature}  = $row[0];
+            $ht_row{link}     = $row[1];
             $ht_row{compilers} = [ map {
                 my $h = {
                     status => $row[$_][0] // '?',
@@ -111,7 +115,7 @@ sub write_html {
                     $h->{ftext} = $f;
                 }
                 $h;
-            } 0..($index - 1) ];
+            } 2..$index ];
             push @rows, \%ht_row;
         }
     }
