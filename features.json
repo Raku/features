@@ -20,21 +20,16 @@
     "items": [
       {
         "item"    : "Basic control structures",
-        "status"  : "rm+ rn+ n+"
-	"code"    : "http://rosettacode.org/wiki/Conditional_structures#Perl_6"
-	"code"    : "http://rosettacode.org/wiki/Loops"
+        "status"  : "rm+ rn+ n+",
+	"code"    : [ "http://rosettacode.org/wiki/Conditional_structures#Perl_6", "http://rosettacode.org/wiki/Loops" ]
       }, {
         "item"    : "Lexical variables",
-        "status"  : "rm+ rn+ n+"
-	"code"    : "http://rosettacode.org/wiki/Closures/Variable_capture#Perl_6"
-	"code"    : "http://rosettacode.org/wiki/Man_or_boy_test#Perl_6"
+        "status"  : "rm+ rn+ n+",
+	"code"    : [ "http://rosettacode.org/wiki/Closures/Variable_capture#Perl_6", "http://rosettacode.org/wiki/Man_or_boy_test#Perl_6" ]
       }, {
         "item"    : "Basic types (strings, numbers)",
-        "status"  : "rm+ rn+ n+"
-	"code"    : "http://rosettacode.org/wiki/String_interpolation_%28included%29#Perl_6"
-	"code"    : "http://rosettacode.org/wiki/Substring#Perl_6"
-	"code"    : "http://rosettacode.org/wiki/Literals/Integer#Perl_6"
-	"code"    : "http://rosettacode.org/wiki/Fibonacci_sequence#Perl_6"
+        "status"  : "rm+ rn+ n+",
+	"code"    : [ "http://rosettacode.org/wiki/String_interpolation_%28included%29#Perl_6", "http://rosettacode.org/wiki/Substring#Perl_6", "http://rosettacode.org/wiki/Literals/Integer#Perl_6", "http://rosettacode.org/wiki/Fibonacci_sequence#Perl_6" ]
       }, {
         "item"    : "Basic file IO",
         "status"  : "rm+ rn+ n+-"
