@@ -109,10 +109,10 @@ Parallelized hyper operators: rm- rn-
 Junctions, autothreading: rm+ rn+ n+
 Whatever-currying: rm+ rn+- n+
 REPL: rm+ rn+ n+
+Feed operators: rm+- rn+-
 
 = Meta-Object Programming
 Introspection: rm+ rn+-
 Adding methods: rm+ rn+
 Inheritance manipulation:
-Role composition:
-Feed operators: rm+- rn+-
+Role composition: rn+
