@@ -68,6 +68,8 @@ Ranges: rm+ rn+ n+
 Sets, KeySet, KeyBag, ...: rn- n-
 Buf: rm+ rn- n-
 Native operators: rm- rn- n-
+Compact arrays: rm- rn- n-
+Shaped arrays/hashes: rm- rn- n-
 
 = Multi dispatch
 Multi method dispatch: rm+ rn+ n+
