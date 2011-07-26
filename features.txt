@@ -29,7 +29,7 @@ Natively typed attributes: rm- rn+ n-
 Roles with attributes and methods: rm+ rn+ n+
 Composing roles into classes: rm+ rn+ n+- (runtime composition only)
 Composing roles into roles: rm+ rn+
-Parametric roles: rm+ n+-
+Parametric roles: rm+ rn+- n+-
 
 = Regexes
 Quantifiers, alternations: rm+ rn+ n+
