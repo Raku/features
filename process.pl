@@ -79,7 +79,8 @@ sub write_html {
             link => $abbr_link{$_},
         };
     }
-    shift @compilers;
+    shift @compilers; shift @compilers;
+
     $t->param(compilers => \@compilers);
     $t->param(columns   => 1 + @compilers);
    
