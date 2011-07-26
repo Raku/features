@@ -1,0 +1,345 @@
+{
+"COMPILERS": [
+  {
+    "abbr" : "rm",
+    "name" : "Rakudo/master",
+    "url"  : "http://rakudo.org"
+  }, {
+    "abbr" : "rn",
+    "name" : "Rakudo/nom",
+    "url"  : "http://pmthium.com/2011/02/08/new-nqp-repository-new-nom-rakudo-branch/"
+  }, {
+    "abbr" : "n",
+    "name" : "Niecza",
+    "url"  : "https://github.com/sorear/niecza"
+  }
+],
+
+"sections": [
+  { "section": "Basics",
+    "items": [
+      {
+        "item"    : "Basic control structures",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Lexical variables",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Basic types (strings, numbers)",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Basic file IO",
+        "status"  : "rm+ rn+ n+-"
+      }, {
+        "item"    : "Basic OO",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Basic regex support",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Subroutines",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Blocks",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Special variables",
+        "status"  : "rm+ (outdated specification) rn+ n+"
+      }, {
+        "item"    : "Constants",
+        "status"  : "rm- rn+- (only literals) n+"
+      }, {
+        "item"    : "State variables",
+        "status"  : "rm- rn- n+"
+      }]
+  }, 
+  { "section": "Classes",
+    "items": [
+      {
+        "item"    : "Classes, attributes, methods",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Single inheritance",
+        "status"  : "rm+ rn+ n+",
+        "code"    : "http://rosettacode.org/wiki/Inheritance/Single#Perl_6"
+      }, {
+        "item"    : "Multiple inheritance",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Read-only accessors",
+        "status"  : "rm+ rn+ n-"
+      }, {
+        "item"    : "Read-write accessors",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Default constructor",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Natively typed attributes",
+        "status"  : "rm- rn+ n-"
+      }]
+  },
+  { "section": "Roles",
+    "items": [
+      {
+        "item"    : "Roles with attributes and methods",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Composing roles into classes",
+        "status"  : "rm+ rn+ n+- (runtime composition only)"
+      }, {
+        "item"    : "Composing roles into roles",
+        "status"  : "rm+ rn+"
+      }, {
+        "item"    : "Parametric roles",
+        "status"  : "rm+ rn+- n+-"
+      } ]
+  },
+  { "section": "Regexes",
+    "items": [
+      {
+        "item"    : "Quantifiers, alternations",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Match objects",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Named and positional captures",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Conjunction",
+        "status"  : "rm+ rn+ n-"
+      }, {
+        "item"    : "Longest-Token Matching",
+        "status"  : "rm+- (only for constants) rn- n+"
+      }, {
+        "item"    : "Character classes",
+        "status"  : "rm+- (no backslash escapes) rn+- (no backslash escapes) n+"
+      }, {
+        "item"    : "Unicode properties",
+        "status"  : "rm- rn- n-"
+      }, {
+        "item"    : "Embedded code blocks",
+        "status"  : "rm+ rn- n+"
+      }, {
+        "item"    : "Variable interpolation",
+        "status"  : "rm+- (only scalars) rn- n+- (only scalars)"
+      }, {
+        "item"    : "Grammars",
+        "status"  : "rm+ rn- n+"
+      }, {
+        "item"    : "Matching streams",
+        "status"  : "rm- rn-"
+      } ]
+  },
+  { "section": "Signatures",
+    "items": [
+      {
+        "item"    : "Positional args/params",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Named args/params",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Slurpy args/params",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Multi-dimensional params",
+        "status"  : "rm- rn+ n-"
+      }, {
+        "item"    : "Nested signatures",
+        "status"  : "rm+ rn- n-"
+      }, {
+        "item"    : "is rw, is copy",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Argument coercion",
+        "status"  : "rm+ rn- n-"
+      }, {
+        "item"    : "Type captures",
+        "status"  : "rm+ rn+ n-"
+      } ]
+  },
+  { "section": "Built-in types and functions",
+    "items": [
+      {
+        "item"    : "Strings, split, join, case folding, substr",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Basic numbers, arithmetic operations",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Big integers",
+        "status"  : "rm- rn- n+"
+      }, {
+        "item"    : "Complex numbers",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Rat type",
+        "status"  : "rm+  rn+ n+"
+      }, {
+        "item"    : "Hashes, Pairs",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Lists, arrays, map, grep",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Lazy lists",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "LoL",
+        "status"  : "rm- rn+- n-"
+      }, {
+        "item"    : "Ranges",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Sets, KeySet, KeyBag, ...",
+        "status"  : "rn- n-"
+      }, {
+        "item"    : "Buf",
+        "status"  : "rm+ rn- n-"
+      }, {
+        "item"    : "Native operators",
+        "status"  : "rm- rn- n-"
+      }, {
+        "item"    : "Compact arrays",
+        "status"  : "rm- rn- n-",
+        "spec"    : "http://perlcabal.org/syn/S09.html#Compact_arrays"
+      }, {
+        "item"    : "Shaped arrays/hashes",
+        "status"  : "rm- rn- n-",
+        "spec"    : "http://perlcabal.org/syn/S09.html#Fixed-size_arrays"
+      } ]
+  },
+  { "section": "Multi dispatch",
+    "items": [
+      {
+        "item"    : "Multi method dispatch",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Multi sub dispatch",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Protos",
+        "status"  : "rm+- (outdated specification) rn+ n-"
+      }, {
+        "item"    : "Based on arity",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Based on types",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Proper narrowness analysis",
+        "status"  : "rm+ rn+ n+- (no subtypes)"
+      }, {
+        "item"    : "Additional constraints",
+        "status"  : "rm+ n-"
+      }]
+  },
+  { "section": "Module management",
+    "items": [
+      {
+        "item"    : "use",
+        "status"  : "rm+- (limited import lists) rn+-(limited import lists) n+- (no import lists)"
+      }, {
+        "item"    : "need:",
+        "status"  : ""
+      }, {
+        "item"    : "require",
+        "status"  : "n+- (precompilation required)"
+      }, {
+        "item"    : "Basic module versioning",
+        "status"  : "rm+ rn-"
+      } ]
+  },
+  { "section": "Meta operators",
+    "items": [
+      {
+        "item"    : "Reduction",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Assignment",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Negation",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Reverse",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Zip",
+        "status"  : "rm+- (only two lists) rn+ n+"
+      }, {
+        "item"    : "Cross",
+        "status"  : "rm+- (only two lists) rn+ n+"
+      }, {
+        "item"    : "Hyper",
+        "status"  : "rm+ rn- n+"
+      }]
+  },
+  { "section": "Syntax flexibility",
+    "items": [
+      {
+        "item"    : "Overloading operators",
+        "status"  : "rm+ n+"
+      }, {
+        "item"    : "Defining new operators",
+        "status"  : "rm+ n+"
+      }, {
+        "item"    : "Precedence and associativity of new operators",
+        "status"  : "rm- rn- n+"
+      }, {
+        "item"    : "Basic macros",
+        "status"  : "rm- rn- n-"
+      }, {
+        "item"    : "Hygienic macros",
+        "status"  : "rm- rn- n-"
+      } ]
+  },
+  { "section": "Concurrency",
+    "items": [
+      {
+        "item"    : "Basic threads",
+        "status"  : "rm- rn- n+"
+      }, {
+        "item"    : "Synchronization",
+        "status"  : "rm- rn- n+-"
+      }, {
+        "item"    : "Parallelized hyper operators",
+        "status"  : "rm- rn-"
+      } ]
+  },
+  { "section": "Misc",
+    "items": [
+      {
+        "item"    : "Junctions, autothreading",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Whatever-currying",
+        "status"  : "rm+ rn+- n+"
+      }, {
+        "item"    : "REPL",
+        "status"  : "rm+ rn+ n+"
+      }, {
+        "item"    : "Feed operators",
+        "status"  : "rm+- rn+-"
+      } ]
+  },
+  {
+    "section": "Meta-Object Programming",
+    "items": [
+      {
+        "item"    : "Introspection",
+        "status"  : "rm+ rn+-"
+      }, {
+        "item"    : "Adding methods",
+        "status"  : "rm+ rn+"
+      }, {
+        "item"    : "Inheritance manipulation:",
+        "status"  : ""
+      }, {
+        "item"    : "Role composition",
+        "status"  : "rn+"
+      } ]
+  } ]
+}

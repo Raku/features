@@ -2,67 +2,87 @@ use 5.010;
 use strict;
 use warnings;
 use autodie;
-
+use JSON;
 use POSIX;
 $ENV{TZ}='Z';
 
-my $comment = qr{^\s*(?:\#.*)?$};
+binmode(STDOUT, ":encoding(UTF-8)");
 
-my $features = 'features.txt';
+# read from 'features.json'
+my $features = 'features.json';
 my $mtime = (stat $features)[9];
 
+# read in the json data
+my $data;
+{
+    local $/;
+    open my $f, '<:encoding(UTF-8)', $features;
+    my $raw = <$f>;
+    $data = decode_json($raw);
+}
 
-open my $f, '<:encoding(UTF-8)', $features;
-binmode(STDOUT, ":encoding(UTF-8)");
-my %abbr_name;
-my %abbr_link;
-my %abbr_index;
-my $index = 1;
-my $in_abbr_section;
-my @sections;
 
-while (<$f>) {
-    chomp;
-    next if $_ ~~ $comment;
-    if (/^=\s+(.*)/) {
-        my $title = $1;
-        if ($title eq 'ABBREVIATIONS') {
-            $in_abbr_section = 1;
-        } else {
-            $in_abbr_section = 0;
-            push @sections, [$title];
-        }
-    }
-    else {
-        if ($in_abbr_section) {
-            my ($abbr, $rest)  = split /\s+/, $_, 2;
-            my ($name, $url)   = split /\s+(?=http)/, $rest, 2;
-            $abbr_name{$abbr}  = $name;
-            $abbr_link{$abbr}  = $url;
-            $abbr_index{$abbr} = ++$index;
-        }
-        else {
-            my ($section, $rest) = split qr{:(?!//)\s*}, $_, 2;
-            my ($name, $url)     = split /\s+(?=http)/, $section, 2;
-#            use Data::Dumper;
-#            print Dumper [$name, $url, $rest];
-            push @{$sections[-1]}, [$name, $url];
-            while ($rest =~ m/(\w+)([+-]+)\s*(?:\(([^()]+)\)\s*)?/g) {
-                my ($abbr, $rating, $comment) = ($1, $2, $3);
-                die "Unknown abbreviation '$abbr'"
-                    unless exists $abbr_name{$abbr};
-                my $i = $abbr_index{$abbr};
-                die "Multiple data points for abbr '$abbr' at line $. -- possible typo?"
-                    if $sections[-1][-1][$i];
-                $rating = "\N{U+00B1}" if $rating eq "+-";
-                $sections[-1][-1][$i] = [$rating, $comment];
+# place the column numbers for each compiler into %comp_index
+my %comp_index;
+my $comp_count = 0;
+for my $c (@{$data->{'COMPILERS'}}) { 
+    $comp_index{$c->{'abbr'}} = $comp_count++;
+}
+
+# walk through all of the items, filling in @ratings for each item 
+# and populating footnotes
+my %footnotes;
+my $foot_count;
+my %rating_class = ( 
+    '+'  => 'implemented', 
+    '-'  => 'missing',
+    '+-' => 'partial',
+    '?'  => 'unknown',
+);
+my %rating_text = ( '+-' => "\N{U+00B1}" );
+for my $sec (@{$data->{'sections'}}) {
+    for my $item (@{$sec->{'items'}}) {
+        my $status = $item->{'status'};
+        my @ratings;
+        while ($status =~ m/(\w+)([+-]+)\s*(?:\(([^()]+)\))?/g) {
+            my ($abbr, $rating, $comment) = ($1, $2, $3);
+            die "Unknown abbreviation '$abbr'"
+                unless exists $comp_index{$abbr};
+            my $r = {
+                status => $rating_text{$rating} // $rating,
+                class  => $rating_class{$rating},
+            };
+            if ($comment) {
+                $footnotes{$comment} //= ++$foot_count if $comment;
+                $r->{footnote} = $footnotes{$comment};
+                $r->{foottext} = $comment;
             }
+            $ratings[$comp_index{$abbr}] = $r;
         }
+        for (0..($comp_count-1)) {
+            $ratings[$_] //= { status => '?', class => 'unknown' }
+        }
+        $item->{'ratings'} = \@ratings;
+        $item->{'code'} = arrayify($item->{'code'}, 'code');
+        $item->{'spec'} = arrayify($item->{'spec'}, 'spec');
     }
 }
 
-close $f;
+# use Data::Dumper;
+# print Dumper $data;
 write_html();
+
+sub arrayify {
+    my ($r, $key) = @_;
+    if (defined $r && ref($r) eq 'ARRAY') {
+        return [ map { { $key => $_ } } @{$r} ];
+    }
+    if ($r) {
+        return [ { $key => $r } ];
+    }
+    [ ];
+}
+
 
 sub write_html {
     require HTML::Template::Compiled;
@@ -72,67 +92,15 @@ sub write_html {
         default_escape  => 'HTML',
         global_vars     => 1,
     );
-    my @compilers;
-    for (keys %abbr_index) {
-        $compilers[$abbr_index{$_}] = {
-            name => $abbr_name{$_},
-            link => $abbr_link{$_},
-        };
-    }
-    shift @compilers; shift @compilers;
-
-    $t->param(compilers => \@compilers);
-    $t->param(columns   => 1 + @compilers);
-   
+    $t->param(compilers => $data->{'COMPILERS'});
+    $t->param(sections  => $data->{'sections'});
     $t->param(when => POSIX::ctime($mtime) . " " . (POSIX::tzname())[0] );
     $t->param(now  => POSIX::ctime(time)   . " " . (POSIX::tzname())[0] );
 
-    my %status_map = (
-        '+'          => 'implemented',
-        "\N{U+00B1}" => 'partial',
-        '-'          => 'missing',
-        '?'          => 'unknown',
-    );
-
-    my $footnote_counter = 0;
-    my %footnotes;
-
-    my @rows;
-    for my $s (@sections) {
-        my @sec = @$s;
-        push @rows, {section => shift @sec};
-        for (@sec) {
-            my %ht_row;
-            my @row = @$_;
-            $ht_row{feature}  = $row[0];
-            $ht_row{link}     = $row[1];
-            $ht_row{compilers} = [ map {
-                my $h = {
-                    status => $row[$_][0] // '?',
-                    class  => $status_map{$row[$_][0] // '?'},
-                };
-                if (my $f = $row[$_][1]) {
-                    $h->{footnote} = ($footnotes{$f} //= ++$footnote_counter);
-                    $h->{ftext} = $f;
-                }
-                $h;
-            } 2..$index ];
-            push @rows, \%ht_row;
-        }
-    }
-    $t->param(rows => \@rows);
-
-    {
-        my @footnotes = sort { $footnotes{$a} <=> $footnotes{$b} }
-                            keys %footnotes;
-        my @f = map {
-            {
-                id   => $footnotes{$_},
-                text => $_,
-            }
-        } @footnotes;
-        $t->param(footnotes => \@f);
-    }
+    my @footkeys = sort { $footnotes{$a} <=> $footnotes{$b} } 
+                        keys %footnotes;
+    my @footnotes = map { { id => $footnotes{$_}, text => $_, } } @footkeys;
+    $t->param(footnotes => \@footnotes);
 
     if (@ARGV) {
         my $filename = shift @ARGV;
