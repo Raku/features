@@ -4,32 +4,32 @@ rn  Rakudo/nom
 n   Niecza 
 
 = Basics
-Basic control structures: rm+, rn+, n+
-Lexical variables: rm+, rn+, n+
-Basic types (strings, numbers): rm+, rn+, n+
-Basic file IO: rm+, rn+, n+-
-Basic OO: rm+, rn+, n+
-Basic regex support: rm+, rn+, n+
-Subroutines: rm+, rn+, n+
+Basic control structures: rm+ rn+ n+
+Lexical variables: rm+ rn+ n+
+Basic types (strings, numbers): rm+ rn+ n+
+Basic file IO: rm+ rn+ n+-
+Basic OO: rm+ rn+ n+
+Basic regex support: rm+ rn+ n+
+Subroutines: rm+ rn+ n+
 Blocks: rm+ rn+ n+
 Special variables: rm+ (outdated specification) rn+ n+
 Constants: rm- rn+- (only literals) n+
 State variables: rm- rn- n+
 
 = Classes
-Classes, attributes, methods: rm+, rn+, n+
-Single inheritance: rm+, rn+, n+
-Multiple inheritance: rm+, rn+- (attributes don't work with MI), n+
-Read-only accessors: rm+, rn+, n-
-Read-write accessors: rm+, rn+, n+
+Classes, attributes, methods: rm+ rn+ n+
+Single inheritance: rm+ rn+ n+
+Multiple inheritance: rm+ rn+- (attributes don't work with MI) n+
+Read-only accessors: rm+ rn+ n-
+Read-write accessors: rm+ rn+ n+
 Default constructor: rm+ rn+ n+
 Natively typed attributes: rm- rn+ n-
 
 = Roles
-Roles with attributes and methods: rm+, rn+, n+
-Composing roles into classes: rm+, rn+, n+- (runtime composition only)
-Composing roles into roles: rm+, rn+
-Parametric roles: rm+, n+-
+Roles with attributes and methods: rm+ rn+ n+
+Composing roles into classes: rm+ rn+ n+- (runtime composition only)
+Composing roles into roles: rm+ rn+
+Parametric roles: rm+ n+-
 
 = Regexes
 Quantifiers, alternations: rm+ rn+ n+
