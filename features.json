@@ -21,7 +21,7 @@
       {
         "item"    : "Basic control structures",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Conditional_structures#Perl_6", "http://rosettacode.org/wiki/Loops", "http://rosettacode.org/wiki/Execute_Brain****#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Conditional_structures#Perl_6", "http://rosettacode.org/wiki/Loops", "http://rosettacode.org/wiki/Guess_the_number/With_feedback#Perl_6", "http://rosettacode.org/wiki/Execute_Brain****#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Lexical variables",
@@ -251,7 +251,7 @@
       }, {
         "item"    : "Slurpy args/params",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Go_Fish/Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Greatest_subsequential_sum#Perl_6", "http://rosettacode.org/wiki/Go_Fish/Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Multi-dimensional params",
@@ -432,7 +432,7 @@
       {
         "item"    : "Smartmatch",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/FizzBuzz#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/FizzBuzz#Perl_6", "http://rosettacode.org/wiki/Guess_the_number/With_feedback#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Numeric bitops",
@@ -487,7 +487,7 @@
       }, {
         "item"    : "Sequence",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Fibonacci_sequence#Perl_6", "http://rosettacode.org/wiki/Dinesman%27s_multiple-dwelling_problem#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Fibonacci_sequence#Perl_6", "http://rosettacode.org/wiki/Dinesman%27s_multiple-dwelling_problem#Perl_6", "http://rosettacode.org/wiki/Greatest_common_divisor#Concise" ],
         "spec"    : [ ]
       }, {
         "item"    : "Logic cascade (andthen, orelse)",
@@ -501,12 +501,12 @@
       {
         "item"    : "Reduction",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Dot_product#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Dot_product#Perl_6", "http://rosettacode.org/wiki/Greatest_element_of_a_list#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Assignment",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Gray_code#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Negation",
