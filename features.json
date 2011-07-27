@@ -631,12 +631,12 @@
         "spec"    : [ ]
       }, {
         "item"    : "run, qx",
-        "status"  : "rm+ rn- n-",
+        "status"  : "rm+ rn+ n-",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
         "item"    : "Environment vars",
-        "status"  : "rm+ rn- n+",
+        "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Environment_variables.html#Perl_6" ],
         "spec"    : [ ]
       } ]
