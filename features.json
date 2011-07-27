@@ -294,7 +294,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Big integers",
-        "status"  : "rm- rn- n+",
+        "status"  : "rm- (promotes to num) rn- (promotes to num) n+",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
