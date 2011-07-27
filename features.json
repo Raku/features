@@ -26,7 +26,12 @@
       }, {
         "item"    : "Lexical variables",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Closures/Variable_capture#Perl_6", "http://rosettacode.org/wiki/Man_or_boy_test#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Closures/Variable_capture#Perl_6", "http://rosettacode.org/wiki/Man_or_boy_test#Perl_6", "http://rosettacode.org/wiki/Draw_a_cuboid#Perl_6" ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "Dynamic variables",
+        "status"  : "rm+ rn+ n+",
+        "code"    : [ "http://rosettacode.org/wiki/Environment_variables#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Basic types (strings, numbers)",
@@ -51,7 +56,7 @@
       }, {
         "item"    : "Subroutines",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Function_definition#Perl_6", "http://rosettacode.org/wiki/Call_a_function#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Function_definition#Perl_6", "http://rosettacode.org/wiki/Call_a_function#Perl_6", "http://rosettacode.org/wiki/Draw_a_cuboid#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Blocks",
@@ -64,9 +69,9 @@
         "code"    : [ ],
         "spec"    : [ ]
       }, {
-        "item"    : "Constants",
+        "item"    : "Constant declarations",
         "status"  : "rm- rn+- (only literals) n+",
-        "code"    : [ "http://rosettacode.org/wiki/Compile-time_calculation#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Compile-time_calculation#Perl_6", "http://rosettacode.org/wiki/Enforced_immutability#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "State variables",
@@ -153,7 +158,7 @@
       }, {
         "item"    : "Enums",
         "status"  : "rm+ rn- n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Enumerations#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Mixins",
@@ -251,7 +256,7 @@
       }, {
         "item"    : "Nested signatures",
         "status"  : "rm+ rn- n-",
-        "code"    : [ "http://rosettacode.org/wiki/Pattern_matching#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Draw_a_cuboid#Perl_6", "http://rosettacode.org/wiki/Pattern_matching#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "is rw, is copy",
@@ -280,7 +285,7 @@
       }, {
         "item"    : "Basic numbers, arithmetic operations",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Discordian_date#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Big integers",
@@ -335,7 +340,7 @@
       }, {
         "item"    : "DateTime, Date",
         "status"  : "rm+ rn- n-",
-        "code"    : [ "http://rosettacode.org/wiki/Day_of_the_week#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Day_of_the_week#Perl_6", "http://rosettacode.org/wiki/Discordian_date#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Native operators",
@@ -445,6 +450,16 @@
         "code"    : [ ],
         "spec"    : [ ]
       }, {
+        "item"    : "File tests",
+        "status"  : "rm+ rn- n+",
+        "code"    : [ "http://rosettacode.org/wiki/Ensure_that_a_file_exists#Perl_6" ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "Trigonometric",
+        "status"  : "rm+ rn+ n+",
+        "code"    : [ "http://rosettacode.org/wiki/Dragon_curve#Perl_6" ],
+        "spec"    : [ ]
+      }, {
         "item"    : "Flipflop",
         "status"  : "rm- rn- n+",
         "code"    : [ ],
@@ -457,7 +472,7 @@
       }, {
         "item"    : "Sequence",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Dinesman%27s_multiple-dwelling_problem#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Logic cascade (andthen, orelse)",
@@ -471,7 +486,7 @@
       {
         "item"    : "Reduction",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Dot_product#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Assignment",
@@ -501,7 +516,7 @@
       }, {
         "item"    : "Hyper",
         "status"  : "rm+ rn- n+",
-        "code"    : [ "http://rosettacode.org/wiki/Deconvolution/1D#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Element-wise_operations#Perl_6", "http://rosettacode.org/wiki/Dot_product#Perl_6", "http://rosettacode.org/wiki/Deconvolution/1D#Perl_6" ],
         "spec"    : [ ]
       }]
   },
