@@ -468,6 +468,11 @@
         "status"  : "rm- rn-",
         "code"    : [ ],
         "spec"    : [ ]
+      }, {
+        "item"    : "Feed operators",
+        "status"  : "rm+- rn+-",
+        "code"    : [ ],
+        "spec"    : [ ]
       } ]
   },
   { "section": "Misc",
@@ -490,11 +495,6 @@
       }, {
         "item"    : "MAIN",
         "status"  : "rm+ rn- n-",
-        "code"    : [ ],
-        "spec"    : [ ]
-      }, {
-        "item"    : "Feed operators",
-        "status"  : "rm+- rn+-",
         "code"    : [ ],
         "spec"    : [ ]
       } ]
