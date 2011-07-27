@@ -329,7 +329,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Buf",
-        "status"  : "rm+ rn- n-",
+        "status"  : "rm+- rn- n-",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
@@ -389,7 +389,7 @@
       }, {
         "item"    : "Additional constraints",
         "status"  : "rm+ n-",
-        "code"    : [ "http://rosettacode.org/wiki/Pattern_matching#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Pattern_matching#Perl_6", "http://rosettacode.org/wiki/Detect_division_by_zero#Perl_6" ],
         "spec"    : [ ]
       }]
   },
@@ -401,7 +401,7 @@
         "code"    : [ ],
         "spec"    : [ ]
       }, {
-        "item"    : "need:",
+        "item"    : "need",
         "status"  : "",
         "code"    : [ ],
         "spec"    : [ ]
@@ -416,6 +416,55 @@
         "code"    : [ ],
         "spec"    : [ ]
       } ]
+  },
+  { "section": "Operators",
+    "items": [
+      {
+        "item"    : "Smartmatch",
+        "status"  : "rm+ rn+ n+",
+        "code"    : [ ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "Numeric bitops",
+        "status"  : "rm+ rn+ n+",
+        "code"    : [ ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "Buffer bitops",
+        "status"  : "rm+ rn+ n-",
+        "code"    : [ ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "Junctive",
+        "status"  : "rm+ rn+ n+",
+        "code"    : [ ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "Chaining",
+        "status"  : "rm+ rn+ n+",
+        "code"    : [ ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "Flipflop",
+        "status"  : "rm- rn- n+",
+        "code"    : [ ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "List infixes",
+        "status"  : "rm+- (only two lists) rn+ n+",
+        "code"    : [ ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "Sequence",
+        "status"  : "rm+ rn+ n+",
+        "code"    : [ ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "Logic cascade (andthen, orelse)",
+        "status"  : "rm- rn- n-",
+        "code"    : [ ],
+        "spec"    : [ ]
+      }]
   },
   { "section": "Meta operators",
     "items": [
@@ -512,7 +561,7 @@
   { "section": "Phasers",
     "items": [
       {
-        "item"    : "BEGIN/CATCH/INIT/END",
+        "item"    : "BEGIN/CHECK/INIT/END",
         "status"  : "rm+- rn+ n+-",
         "code"    : [ "http://rosettacode.org/wiki/Compile-time_calculation#Perl_6" ],
         "spec"    : [ ]
@@ -529,7 +578,7 @@
       }, {
         "item"    : "CATCH",
         "status"  : "rm+ rn- n-",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Detect_division_by_zero#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "PRE/POST",
