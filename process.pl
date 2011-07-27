@@ -53,7 +53,7 @@ for my $sec (@{$data->{'sections'}}) {
                 class  => $rating_class{$rating},
             };
             if ($comment) {
-                $footnotes{$comment} //= ++$foot_count if $comment;
+                $footnotes{$comment} //= ++$foot_count;
                 $r->{footnote} = $footnotes{$comment};
                 $r->{foottext} = $comment;
             }
