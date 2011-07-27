@@ -77,7 +77,7 @@
       }, {
         "item"    : "Blocks",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Higher-order_functions#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Special variables",
@@ -348,6 +348,7 @@
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Catalan_numbers#Perl_6",
                       "http://rosettacode.org/wiki/Equilibrium_index#Perl_6",
+                      "http://rosettacode.org/wiki/Huffman_coding#Perl_6",
                       "http://rosettacode.org/wiki/Generator#Perl_6" ],
         "spec"    : [ ]
       }, {
@@ -419,7 +420,8 @@
       }, {
         "item"    : "Based on types",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Exponentiation_operator#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Exponentiation_operator#Perl_6",
+                      "http://rosettacode.org/wiki/Huffman_coding#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Proper narrowness analysis",
@@ -522,6 +524,7 @@
         "item"    : "Sequence",
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Fibonacci_sequence#Perl_6",
+                      "http://rosettacode.org/wiki/Hailstone_sequence#Perl_6",
                       "http://rosettacode.org/wiki/Dinesman%27s_multiple-dwelling_problem#Perl_6",
                       "http://rosettacode.org/wiki/Greatest_common_divisor#Concise" ],
         "spec"    : [ ]
@@ -541,9 +544,16 @@
                       "http://rosettacode.org/wiki/Greatest_element_of_a_list#Perl_6" ],
         "spec"    : [ ]
       }, {
+        "item"    : "Triangle",
+        "status"  : "rm+ rn- n+",
+        "code"    : [ "http://rosettacode.org/wiki/Hamming_numbers#Perl_6",
+                      "http://rosettacode.org/wiki/Equilibrium_index#Perl_6" ],
+        "spec"    : [ ]
+      }, {
         "item"    : "Assignment",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Gray_code#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Gray_code#Perl_6",
+                      "http://rosettacode.org/wiki/Hailstone_sequence#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Negation",
@@ -559,12 +569,14 @@
         "item"    : "Zip",
         "status"  : "rm+- (only two lists) rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/FizzBuzz#Perl_6",
+                      "http://rosettacode.org/wiki/Hash_from_two_arrays#Perl_6",
                       "http://rosettacode.org/wiki/Forward_difference#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Cross",
         "status"  : "rm+- (only two lists) rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Constrained_random_points_on_a_circle#Perl_6",
+                      "http://rosettacode.org/wiki/Hamming_numbers#Perl_6",
                       "http://rosettacode.org/wiki/Find_the_missing_permutation#Perl_6" ],
         "spec"    : [ ]
       }, {
@@ -684,12 +696,12 @@
       }, {
         "item"    : "MAIN",
         "status"  : "rm+ rn- n-",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Guess_the_number/With_feedback_(player)#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "run, qx",
         "status"  : "rm+ rn+ n-",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Execute_a_system_command#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Environment vars",
