@@ -153,7 +153,7 @@
       }, {
         "item"    : "Named and positional captures",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Read_a_configuration_file#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Conjunction",
@@ -163,7 +163,7 @@
       }, {
         "item"    : "Longest-Token Matching",
         "status"  : "rm+- (only for constants) rn- n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Read_a_configuration_file#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Character classes",
@@ -178,7 +178,7 @@
       }, {
         "item"    : "Embedded code blocks",
         "status"  : "rm+ rn- n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Read_a_configuration_file#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Variable interpolation",
@@ -188,11 +188,16 @@
       }, {
         "item"    : "Grammars",
         "status"  : "rm+ rn- n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Read_a_configuration_file#Perl_6" ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "Categories across derived grammars",
+        "status"  : "rm+ rn- n+",
+        "code"    : [ "http://rosettacode.org/wiki/Read_a_configuration_file#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Matching streams",
-        "status"  : "rm- rn-",
+        "status"  : "rm- rn- n-",
         "code"    : [ ],
         "spec"    : [ ]
       } ]
@@ -222,7 +227,7 @@
       }, {
         "item"    : "Nested signatures",
         "status"  : "rm+ rn- n-",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Pattern_matching#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "is rw, is copy",
@@ -355,7 +360,7 @@
       }, {
         "item"    : "Additional constraints",
         "status"  : "rm+ n-",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Pattern_matching#Perl_6" ],
         "spec"    : [ ]
       }]
   },
@@ -471,6 +476,35 @@
       }, {
         "item"    : "Feed operators",
         "status"  : "rm+- rn+-",
+        "code"    : [ ],
+        "spec"    : [ ]
+      } ]
+  },
+  { "section": "Phasers",
+    "items": [
+      {
+        "item"    : "BEGIN/CATCH/INIT/END",
+        "status"  : "rm+- rn+ n+-",
+        "code"    : [ ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "ENTER/LEAVE",
+        "status"  : "rm- rn- n-",
+        "code"    : [ ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "FIRST/NEXT/LAST",
+        "status"  : "rm- rn- n-",
+        "code"    : [ ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "CATCH",
+        "status"  : "rm+ rn- n-",
+        "code"    : [ ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "PRE/POST",
+        "status"  : "rm- rn- n-",
         "code"    : [ ],
         "spec"    : [ ]
       } ]
