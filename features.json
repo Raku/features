@@ -153,7 +153,7 @@
       {
         "item"    : "Subset types",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Define_a_primitive_data_type#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Define_a_primitive_data_type#Perl_6", "file:///home/larry/Desktop/rosettacode.org/wiki/Exponentiation_operator.html#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Enums",
@@ -310,7 +310,7 @@
       }, {
         "item"    : "Lists, arrays, map, grep",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "file:///home/larry/Desktop/rosettacode.org/wiki/Factors_of_an_integer.html#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Lazy lists, gather/take",
@@ -384,7 +384,7 @@
       }, {
         "item"    : "Based on types",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "file:///home/larry/Desktop/rosettacode.org/wiki/Exponentiation_operator.html#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Proper narrowness analysis",
@@ -535,7 +535,7 @@
       }, {
         "item"    : "Defining new operators",
         "status"  : "rm+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Evaluate_binomial_coefficients#Perl_6", "http://rosettacode.org/wiki/Combinations_with_repetitions#Perl_6" ],
+        "code"    : [ "file:///home/larry/Desktop/rosettacode.org/wiki/Exponentiation_operator.html#Perl_6", "http://rosettacode.org/wiki/Evaluate_binomial_coefficients#Perl_6", "http://rosettacode.org/wiki/Combinations_with_repetitions#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Precedence and associativity of new operators",
@@ -636,8 +636,8 @@
         "spec"    : [ ]
       }, {
         "item"    : "Environment vars",
-        "status"  : "rm+ rn- n-",
-        "code"    : [ ],
+        "status"  : "rm+ rn- n+",
+        "code"    : [ "file:///home/larry/Desktop/rosettacode.org/wiki/Environment_variables.html#Perl_6" ],
         "spec"    : [ ]
       } ]
   },
