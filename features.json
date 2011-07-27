@@ -363,7 +363,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Sets, KeySet, KeyBag, ...",
-        "status"  : "rn- n-",
+        "status"  : "rm+- rn- n-",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
