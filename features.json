@@ -21,12 +21,17 @@
       {
         "item"    : "Basic control structures",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Conditional_structures#Perl_6", "http://rosettacode.org/wiki/Loops", "http://rosettacode.org/wiki/Guess_the_number/With_feedback#Perl_6", "http://rosettacode.org/wiki/Execute_Brain****#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Conditional_structures#Perl_6",
+                      "http://rosettacode.org/wiki/Loops",
+                      "http://rosettacode.org/wiki/Guess_the_number/With_feedback#Perl_6",
+                      "http://rosettacode.org/wiki/Execute_Brain****#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Lexical variables",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Closures/Variable_capture#Perl_6", "http://rosettacode.org/wiki/Man_or_boy_test#Perl_6", "http://rosettacode.org/wiki/Draw_a_cuboid#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Closures/Variable_capture#Perl_6",
+                      "http://rosettacode.org/wiki/Man_or_boy_test#Perl_6",
+                      "http://rosettacode.org/wiki/Draw_a_cuboid#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Dynamic variables",
@@ -36,12 +41,20 @@
       }, {
         "item"    : "Basic types (strings, numbers)",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/String_interpolation_%28included%29#Perl_6", "http://rosettacode.org/wiki/Substring#Perl_6", "http://rosettacode.org/wiki/Literals/Integer#Perl_6", "http://rosettacode.org/wiki/Fibonacci_sequence#Perl_6", "http://rosettacode.org/wiki/Averages/Simple_moving_average#Perl_6", "http://rosettacode.org/wiki/Convert_decimal_number#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/String_interpolation_%28included%29#Perl_6",
+                      "http://rosettacode.org/wiki/Substring#Perl_6",
+                      "http://rosettacode.org/wiki/Literals/Integer#Perl_6",
+                      "http://rosettacode.org/wiki/Fibonacci_sequence#Perl_6",
+                      "http://rosettacode.org/wiki/Averages/Simple_moving_average#Perl_6",
+                      "http://rosettacode.org/wiki/Convert_decimal_number#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Basic file IO",
         "status"  : "rm+ rn+ n+-",
-        "code"    : [ "http://rosettacode.org/wiki/File_IO#Perl_6", "http://rosettacode.org/wiki/Read_a_file_line_by_line#Perl_6", "http://rosettacode.org/wiki/Read_entire_file#Perl_6", "http://rosettacode.org/wiki/Create_a_file#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/File_IO#Perl_6",
+                      "http://rosettacode.org/wiki/Read_a_file_line_by_line#Perl_6",
+                      "http://rosettacode.org/wiki/Read_entire_file#Perl_6",
+                      "http://rosettacode.org/wiki/Create_a_file#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Basic OO",
@@ -56,7 +69,10 @@
       }, {
         "item"    : "Subroutines",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Find_limit_of_recursion#Perl_6", "http://rosettacode.org/wiki/Function_definition#Perl_6", "http://rosettacode.org/wiki/Call_a_function#Perl_6", "http://rosettacode.org/wiki/Draw_a_cuboid#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Find_limit_of_recursion#Perl_6",
+                      "http://rosettacode.org/wiki/Function_definition#Perl_6",
+                      "http://rosettacode.org/wiki/Call_a_function#Perl_6",
+                      "http://rosettacode.org/wiki/Draw_a_cuboid#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Blocks",
@@ -76,7 +92,8 @@
       }, {
         "item"    : "Constant declarations",
         "status"  : "rm- rn+- (only literals) n+",
-        "code"    : [ "http://rosettacode.org/wiki/Compile-time_calculation#Perl_6", "http://rosettacode.org/wiki/Enforced_immutability#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Compile-time_calculation#Perl_6",
+                      "http://rosettacode.org/wiki/Enforced_immutability#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "State variables",
@@ -90,7 +107,9 @@
       {
         "item"    : "Classes, attributes, methods",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Classes#Perl_6", "http://rosettacode.org/wiki/Forest_fire#Perl_6", "http://rosettacode.org/wiki/Execute_Brain****#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Classes#Perl_6",
+                      "http://rosettacode.org/wiki/Forest_fire#Perl_6",
+                      "http://rosettacode.org/wiki/Execute_Brain****#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Single inheritance",
@@ -158,12 +177,14 @@
       {
         "item"    : "Subset types",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Define_a_primitive_data_type#Perl_6", "http://rosettacode.org/wiki/Exponentiation_operator#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Define_a_primitive_data_type#Perl_6",
+                      "http://rosettacode.org/wiki/Exponentiation_operator#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Enums",
         "status"  : "rm+ rn- n+",
-        "code"    : [ "http://rosettacode.org/wiki/Enumerations#Perl_6", "http://rosettacode.org/wiki/Forest_fire#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Enumerations#Perl_6",
+                      "http://rosettacode.org/wiki/Forest_fire#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Mixins",
@@ -251,7 +272,8 @@
       }, {
         "item"    : "Slurpy args/params",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Greatest_subsequential_sum#Perl_6", "http://rosettacode.org/wiki/Go_Fish/Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Greatest_subsequential_sum#Perl_6",
+                      "http://rosettacode.org/wiki/Go_Fish/Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Multi-dimensional params",
@@ -261,12 +283,15 @@
       }, {
         "item"    : "Nested signatures",
         "status"  : "rm+ rn- n-",
-        "code"    : [ "http://rosettacode.org/wiki/Draw_a_cuboid#Perl_6", "http://rosettacode.org/wiki/Pattern_matching#Perl_6", "http://rosettacode.org/wiki/Forward_difference#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Draw_a_cuboid#Perl_6",
+                      "http://rosettacode.org/wiki/Pattern_matching#Perl_6",
+                      "http://rosettacode.org/wiki/Forward_difference#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "is rw, is copy",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Ethiopian_multiplication#Perl_6", "http://rosettacode.org/wiki/Deconvolution/2D%2B#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Ethiopian_multiplication#Perl_6",
+                      "http://rosettacode.org/wiki/Deconvolution/2D%2B#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Argument coercion",
@@ -315,12 +340,15 @@
       }, {
         "item"    : "Lists, arrays, map, grep",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Filter#Perl_6", "http://rosettacode.org/wiki/Factors_of_an_integer#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Filter#Perl_6",
+                      "http://rosettacode.org/wiki/Factors_of_an_integer#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Lazy lists, gather/take",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Catalan_numbers#Perl_6", "http://rosettacode.org/wiki/Equilibrium_index#Perl_6", "http://rosettacode.org/wiki/Generator#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Catalan_numbers#Perl_6",
+                      "http://rosettacode.org/wiki/Equilibrium_index#Perl_6",
+                      "http://rosettacode.org/wiki/Generator#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "LoL",
@@ -345,7 +373,9 @@
       }, {
         "item"    : "DateTime, Date",
         "status"  : "rm+ rn- n-",
-        "code"    : [ "http://rosettacode.org/wiki/Day_of_the_week#Perl_6", "http://rosettacode.org/wiki/Five_weekends#Perl_6", "http://rosettacode.org/wiki/Discordian_date#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Day_of_the_week#Perl_6",
+                      "http://rosettacode.org/wiki/Five_weekends#Perl_6",
+                      "http://rosettacode.org/wiki/Discordian_date#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Native operators",
@@ -399,7 +429,8 @@
       }, {
         "item"    : "Additional constraints",
         "status"  : "rm+ n-",
-        "code"    : [ "http://rosettacode.org/wiki/Pattern_matching#Perl_6", "http://rosettacode.org/wiki/Detect_division_by_zero#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Pattern_matching#Perl_6",
+                      "http://rosettacode.org/wiki/Detect_division_by_zero#Perl_6" ],
         "spec"    : [ ]
       }]
   },
@@ -432,7 +463,8 @@
       {
         "item"    : "Smartmatch",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/FizzBuzz#Perl_6", "http://rosettacode.org/wiki/Guess_the_number/With_feedback#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/FizzBuzz#Perl_6",
+                      "http://rosettacode.org/wiki/Guess_the_number/With_feedback#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Numeric bitops",
@@ -457,12 +489,14 @@
       }, {
         "item"    : "File tests",
         "status"  : "rm+ rn- n+-",
-        "code"    : [ "http://rosettacode.org/wiki/Ensure_that_a_file_exists#Perl_6", "http://rosettacode.org/wiki/File_size#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Ensure_that_a_file_exists#Perl_6",
+                      "http://rosettacode.org/wiki/File_size#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Trigonometric",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Dragon_curve#Perl_6", "http://rosettacode.org/wiki/Fractal_tree#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Dragon_curve#Perl_6",
+                      "http://rosettacode.org/wiki/Fractal_tree#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Probabalistic (rand, pick, roll)",
@@ -487,7 +521,9 @@
       }, {
         "item"    : "Sequence",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Fibonacci_sequence#Perl_6", "http://rosettacode.org/wiki/Dinesman%27s_multiple-dwelling_problem#Perl_6", "http://rosettacode.org/wiki/Greatest_common_divisor#Concise" ],
+        "code"    : [ "http://rosettacode.org/wiki/Fibonacci_sequence#Perl_6",
+                      "http://rosettacode.org/wiki/Dinesman%27s_multiple-dwelling_problem#Perl_6",
+                      "http://rosettacode.org/wiki/Greatest_common_divisor#Concise" ],
         "spec"    : [ ]
       }, {
         "item"    : "Logic cascade (andthen, orelse)",
@@ -501,7 +537,8 @@
       {
         "item"    : "Reduction",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Dot_product#Perl_6", "http://rosettacode.org/wiki/Greatest_element_of_a_list#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Dot_product#Perl_6",
+                      "http://rosettacode.org/wiki/Greatest_element_of_a_list#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Assignment",
@@ -521,17 +558,22 @@
       }, {
         "item"    : "Zip",
         "status"  : "rm+- (only two lists) rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/FizzBuzz#Perl_6", "http://rosettacode.org/wiki/Forward_difference#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/FizzBuzz#Perl_6",
+                      "http://rosettacode.org/wiki/Forward_difference#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Cross",
         "status"  : "rm+- (only two lists) rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Constrained_random_points_on_a_circle#Perl_6", "http://rosettacode.org/wiki/Find_the_missing_permutation#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Constrained_random_points_on_a_circle#Perl_6",
+                      "http://rosettacode.org/wiki/Find_the_missing_permutation#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Hyper",
         "status"  : "rm+ rn- n+",
-        "code"    : [ "http://rosettacode.org/wiki/Element-wise_operations#Perl_6", "http://rosettacode.org/wiki/Dot_product#Perl_6", "http://rosettacode.org/wiki/Deconvolution/1D#Perl_6", "http://rosettacode.org/wiki/Fast_Fourier_transform#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Element-wise_operations#Perl_6",
+                      "http://rosettacode.org/wiki/Dot_product#Perl_6",
+                      "http://rosettacode.org/wiki/Deconvolution/1D#Perl_6",
+                      "http://rosettacode.org/wiki/Fast_Fourier_transform#Perl_6" ],
         "spec"    : [ ]
       }]
   },
@@ -612,7 +654,8 @@
       }, {
         "item"    : "CATCH",
         "status"  : "rm+ rn- n-",
-        "code"    : [ "http://rosettacode.org/wiki/Exceptions#Perl_6", "http://rosettacode.org/wiki/Detect_division_by_zero#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Exceptions#Perl_6",
+                      "http://rosettacode.org/wiki/Detect_division_by_zero#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "PRE/POST",
