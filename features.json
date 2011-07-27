@@ -302,7 +302,7 @@
         "item"    : "Type captures",
         "status"  : "rm+ rn+ n-",
         "code"    : [ "http://rosettacode.org/wiki/Constrained_genericity#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S06.html#En_passant_type_capture" ]
       } ]
   },
   { "section": "Built-in types and functions",
@@ -311,12 +311,12 @@
         "item"    : "Strings, split, join, case folding, substr",
         "status"  : "rm+ rn+ n+",
         "code"    : [ ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S32/Str.html" ]
       }, {
         "item"    : "Basic numbers, arithmetic operations",
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Discordian_date#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S32/Numeric.html" ]
       }, {
         "item"    : "Big integers",
         "status"  : "rm- (promotes to num) rn- (promotes to num) n+",
@@ -326,7 +326,7 @@
         "item"    : "Complex numbers",
         "status"  : "rm+ rn+ n+",
         "code"    : [ ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S32/Numeric.html#Complex" ]
       }, {
         "item"    : "Rat type",
         "status"  : "rm+  rn+ n+",
@@ -336,13 +336,13 @@
         "item"    : "Hashes, Pairs",
         "status"  : "rm+ rn+ n+",
         "code"    : [ ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S32/Numeric.html#Rat" ]
       }, {
         "item"    : "Lists, arrays, map, grep",
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Filter#Perl_6",
                       "http://rosettacode.org/wiki/Factors_of_an_integer#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S32/Containers.html" ]
       }, {
         "item"    : "Lazy lists, gather/take",
         "status"  : "rm+ rn+ n+",
@@ -370,7 +370,7 @@
         "item"    : "Buf",
         "status"  : "rm+- rn- n-",
         "code"    : [ ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S32/Containers.html#Buf" ]
       }, {
         "item"    : "DateTime, Date",
         "status"  : "rm+ rn- n-",
@@ -472,7 +472,7 @@
         "item"    : "Numeric bitops",
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Gray_code#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S03.html#Smart_matching" ]
       }, {
         "item"    : "Buffer bitops",
         "status"  : "rm+ rn+ n-",
@@ -482,12 +482,12 @@
         "item"    : "Junctive",
         "status"  : "rm+ rn+ n+",
         "code"    : [ ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S03.html#Junctive_operators" ]
       }, {
         "item"    : "Chaining",
         "status"  : "rm+ rn+ n+",
         "code"    : [ ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S03.html#Chained_comparisons" ]
       }, {
         "item"    : "File tests",
         "status"  : "rm+ rn- n+-",
