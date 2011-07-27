@@ -295,7 +295,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Argument coercion",
-        "status"  : "rm+ rn- n-",
+        "status"  : "rm+ rn+ n-",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
