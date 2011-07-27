@@ -114,8 +114,8 @@
         "spec"    : [ ]
       }, {
         "item"    : "Delegation",
-        "status"  : "",
-        "code"    : [ rm+- rn- n- ],
+        "status"  : "rm+- rn- n-",
+        "code"    : [ ],
         "spec"    : [ ]
       }]
   },
