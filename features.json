@@ -236,7 +236,7 @@
       {
         "item"    : "Positional args/params",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Four_bit_adder#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Named args/params",
@@ -256,7 +256,7 @@
       }, {
         "item"    : "Nested signatures",
         "status"  : "rm+ rn- n-",
-        "code"    : [ "http://rosettacode.org/wiki/Draw_a_cuboid#Perl_6", "http://rosettacode.org/wiki/Pattern_matching#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Draw_a_cuboid#Perl_6", "http://rosettacode.org/wiki/Pattern_matching#Perl_6", "http://rosettacode.org/wiki/Forward_difference#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "is rw, is copy",
@@ -457,7 +457,7 @@
       }, {
         "item"    : "Trigonometric",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Dragon_curve#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Dragon_curve#Perl_6", "http://rosettacode.org/wiki/Fractal_tree#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Probabalistic (rand, pick, roll)",
@@ -516,7 +516,7 @@
       }, {
         "item"    : "Zip",
         "status"  : "rm+- (only two lists) rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/FizzBuzz#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/FizzBuzz#Perl_6", "http://rosettacode.org/wiki/Forward_difference#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Cross",
@@ -540,7 +540,7 @@
       }, {
         "item"    : "Defining new operators",
         "status"  : "rm+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Exponentiation_operator#Perl_6", "http://rosettacode.org/wiki/Evaluate_binomial_coefficients#Perl_6", "http://rosettacode.org/wiki/Combinations_with_repetitions#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Function_composition#Perl_6", "http://rosettacode.org/wiki/Exponentiation_operator.html#Perl_6", "http://rosettacode.org/wiki/Evaluate_binomial_coefficients#Perl_6", "http://rosettacode.org/wiki/Combinations_with_repetitions#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Precedence and associativity of new operators",
