@@ -31,27 +31,27 @@
       }, {
         "item"    : "Basic types (strings, numbers)",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/String_interpolation_%28included%29#Perl_6", "http://rosettacode.org/wiki/Substring#Perl_6", "http://rosettacode.org/wiki/Literals/Integer#Perl_6", "http://rosettacode.org/wiki/Fibonacci_sequence#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/String_interpolation_%28included%29#Perl_6", "http://rosettacode.org/wiki/Substring#Perl_6", "http://rosettacode.org/wiki/Literals/Integer#Perl_6", "http://rosettacode.org/wiki/Fibonacci_sequence#Perl_6", "http://rosettacode.org/wiki/Averages/Simple_moving_average#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Basic file IO",
         "status"  : "rm+ rn+ n+-",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Read_a_file_line_by_line#Perl_6", "http://rosettacode.org/wiki/Read_entire_file#Perl_6", "http://rosettacode.org/wiki/Create_a_file#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Basic OO",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Classes#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Basic regex support",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Character_matching#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Subroutines",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Function_definition#Perl_6", "http://rosettacode.org/wiki/Call_a_function#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Blocks",
@@ -80,17 +80,17 @@
       {
         "item"    : "Classes, attributes, methods",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Classes#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Single inheritance",
         "status"  : "rm+ rn+ n+",
-        "code"    : "http://rosettacode.org/wiki/Inheritance/Single#Perl_6",
+        "code"    : [ "http://rosettacode.org/wiki/Inheritance/Single#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Multiple inheritance",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Inheritance/Multiple#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Read-only accessors",
@@ -279,9 +279,9 @@
         "code"    : [ ],
         "spec"    : [ ]
       }, {
-        "item"    : "Lazy lists",
+        "item"    : "Lazy lists, gather/take",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Catalan_numbers#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "LoL",
@@ -330,12 +330,12 @@
       }, {
         "item"    : "Multi sub dispatch",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Combinations#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Protos",
         "status"  : "rm+- (outdated specification) rn+ n-",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Combinations#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Based on arity",
@@ -485,6 +485,11 @@
       }, {
         "item"    : "REPL",
         "status"  : "rm+ rn+ n+",
+        "code"    : [ ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "MAIN",
+        "status"  : "rm+ rn- n-",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
