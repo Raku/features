@@ -545,7 +545,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Triangle",
-        "status"  : "rm+ rn- n+",
+        "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Hamming_numbers#Perl_6",
                       "http://rosettacode.org/wiki/Equilibrium_index#Perl_6" ],
         "spec"    : [ ]
