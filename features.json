@@ -251,7 +251,7 @@
       }, {
         "item"    : "Slurpy args/params",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Go_Fish/Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Multi-dimensional params",
@@ -320,7 +320,7 @@
       }, {
         "item"    : "Lazy lists, gather/take",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Catalan_numbers#Perl_6", "http://rosettacode.org/wiki/Equilibrium_index#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Catalan_numbers#Perl_6", "http://rosettacode.org/wiki/Equilibrium_index#Perl_6", "http://rosettacode.org/wiki/Generator#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "LoL",
@@ -437,7 +437,7 @@
       }, {
         "item"    : "Numeric bitops",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Gray_code#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Buffer bitops",
@@ -545,7 +545,7 @@
       }, {
         "item"    : "Defining new operators",
         "status"  : "rm+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Function_composition#Perl_6", "http://rosettacode.org/wiki/Exponentiation_operator.html#Perl_6", "http://rosettacode.org/wiki/Evaluate_binomial_coefficients#Perl_6", "http://rosettacode.org/wiki/Combinations_with_repetitions#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Function_composition#Perl_6", "http://rosettacode.org/wiki/Exponentiation_operator.html#Perl_6", "http://rosettacode.org/wiki/Generator#Perl_6" "http://rosettacode.org/wiki/Evaluate_binomial_coefficients#Perl_6", "http://rosettacode.org/wiki/Combinations_with_repetitions#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Precedence and associativity of new operators",
