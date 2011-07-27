@@ -31,7 +31,7 @@
       }, {
         "item"    : "Basic types (strings, numbers)",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/String_interpolation_%28included%29#Perl_6", "http://rosettacode.org/wiki/Substring#Perl_6", "http://rosettacode.org/wiki/Literals/Integer#Perl_6", "http://rosettacode.org/wiki/Fibonacci_sequence#Perl_6", "http://rosettacode.org/wiki/Averages/Simple_moving_average#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/String_interpolation_%28included%29#Perl_6", "http://rosettacode.org/wiki/Substring#Perl_6", "http://rosettacode.org/wiki/Literals/Integer#Perl_6", "http://rosettacode.org/wiki/Fibonacci_sequence#Perl_6", "http://rosettacode.org/wiki/Averages/Simple_moving_average#Perl_6", "http://rosettacode.org/wiki/Convert_decimal_number#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Basic file IO",
@@ -66,7 +66,7 @@
       }, {
         "item"    : "Constants",
         "status"  : "rm- rn+- (only literals) n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Compile-time_calculation#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "State variables",
@@ -112,6 +112,11 @@
         "status"  : "rm- rn+ n-",
         "code"    : [ ],
         "spec"    : [ ]
+      }, {
+        "item"    : "Delegation",
+        "status"  : "",
+        "code"    : [ rm+- rn- n- ],
+        "spec"    : [ ]
       }]
   },
   { "section": "Roles",
@@ -134,6 +139,25 @@
       }, {
         "item"    : "Parametric roles",
         "status"  : "rm+ rn+- n+-",
+        "code"    : [ "http://rosettacode.org/wiki/Constrained_genericity#Perl_6" ],
+        "spec"    : [ ]
+      } ]
+  },
+  { "section": "Types",
+    "items": [
+      {
+        "item"    : "Subset types",
+        "status"  : "rm+ rn+ n+",
+        "code"    : [ "http://rosettacode.org/wiki/Define_a_primitive_data_type#Perl_6" ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "Enums",
+        "status"  : "rm+ rn- n+",
+        "code"    : [ ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "Mixins",
+        "status"  : "rm+ rn+ n+",
         "code"    : [ ],
         "spec"    : [ ]
       } ]
@@ -232,7 +256,7 @@
       }, {
         "item"    : "is rw, is copy",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Deconvolution/2D%2B#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Argument coercion",
@@ -242,7 +266,7 @@
       }, {
         "item"    : "Type captures",
         "status"  : "rm+ rn+ n-",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Constrained_genericity#Perl_6" ],
         "spec"    : [ ]
       } ]
   },
@@ -307,6 +331,11 @@
         "item"    : "Buf",
         "status"  : "rm+ rn- n-",
         "code"    : [ ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "DateTime, Date",
+        "status"  : "rm+ rn- n-",
+        "code"    : [ "http://rosettacode.org/wiki/Day_of_the_week#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Native operators",
@@ -418,12 +447,12 @@
       }, {
         "item"    : "Cross",
         "status"  : "rm+- (only two lists) rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Constrained_random_points_on_a_circle#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Hyper",
         "status"  : "rm+ rn- n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Deconvolution/1D#Perl_6" ],
         "spec"    : [ ]
       }]
   },
@@ -437,7 +466,7 @@
       }, {
         "item"    : "Defining new operators",
         "status"  : "rm+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Combinations_with_repetitions#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Precedence and associativity of new operators",
@@ -471,7 +500,7 @@
       }, {
         "item"    : "Parallelized hyper operators",
         "status"  : "rm- rn-",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Concurrent_computing#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Feed operators",
@@ -485,7 +514,7 @@
       {
         "item"    : "BEGIN/CATCH/INIT/END",
         "status"  : "rm+- rn+ n+-",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Compile-time_calculation#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "ENTER/LEAVE",
