@@ -21,7 +21,7 @@
       {
         "item"    : "Basic control structures",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Conditional_structures#Perl_6", "http://rosettacode.org/wiki/Loops" ],
+        "code"    : [ "http://rosettacode.org/wiki/Conditional_structures#Perl_6", "http://rosettacode.org/wiki/Loops", "http://rosettacode.org/wiki/Execute_Brain****#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Lexical variables",
@@ -85,7 +85,7 @@
       {
         "item"    : "Classes, attributes, methods",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Classes#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Classes#Perl_6", "http://rosettacode.org/wiki/Execute_Brain****#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Single inheritance",
@@ -261,7 +261,7 @@
       }, {
         "item"    : "is rw, is copy",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Deconvolution/2D%2B#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Ethiopian_multiplication#Perl_6", "http://rosettacode.org/wiki/Deconvolution/2D%2B#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Argument coercion",
@@ -315,7 +315,7 @@
       }, {
         "item"    : "Lazy lists, gather/take",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Catalan_numbers#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Catalan_numbers#Perl_6", "http://rosettacode.org/wiki/Equilibrium_index#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "LoL",
@@ -460,6 +460,11 @@
         "code"    : [ "http://rosettacode.org/wiki/Dragon_curve#Perl_6" ],
         "spec"    : [ ]
       }, {
+        "item"    : "Probabalistic (rand, pick, roll)",
+        "status"  : "rm+ rn+ n+-",
+        "code"    : [ "http://rosettacode.org/wiki/Evolutionary_algorithm#Perl_6" ],
+        "spec"    : [ ]
+      }, {
         "item"    : "Flipflop",
         "status"  : "rm- rn- n+",
         "code"    : [ ],
@@ -530,7 +535,7 @@
       }, {
         "item"    : "Defining new operators",
         "status"  : "rm+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Combinations_with_repetitions#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Evaluate_binomial_coefficients#Perl_6", "http://rosettacode.org/wiki/Combinations_with_repetitions#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Precedence and associativity of new operators",
@@ -593,7 +598,7 @@
       }, {
         "item"    : "CATCH",
         "status"  : "rm+ rn- n-",
-        "code"    : [ "http://rosettacode.org/wiki/Detect_division_by_zero#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Exceptions#Perl_6", "http://rosettacode.org/wiki/Detect_division_by_zero#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "PRE/POST",
@@ -621,6 +626,16 @@
         "spec"    : [ ]
       }, {
         "item"    : "MAIN",
+        "status"  : "rm+ rn- n-",
+        "code"    : [ ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "run, qx",
+        "status"  : "rm+ rn- n-",
+        "code"    : [ ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "Environment vars",
         "status"  : "rm+ rn- n-",
         "code"    : [ ],
         "spec"    : [ ]
