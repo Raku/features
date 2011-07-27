@@ -69,6 +69,11 @@
         "code"    : [ ],
         "spec"    : [ ]
       }, {
+        "item"    : "eval",
+        "status"  : "rm+ rn+ n+",
+        "code"    : [ ],
+        "spec"    : [ ]
+      }, {
         "item"    : "Constant declarations",
         "status"  : "rm- rn+- (only literals) n+",
         "code"    : [ "http://rosettacode.org/wiki/Compile-time_calculation#Perl_6", "http://rosettacode.org/wiki/Enforced_immutability#Perl_6" ],
