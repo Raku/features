@@ -23,7 +23,9 @@
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Conditional_structures#Perl_6",
                       "http://rosettacode.org/wiki/Loops",
+                      "http://rosettacode.org/wiki/Inverted_syntax#Perl_6",
                       "http://rosettacode.org/wiki/Guess_the_number/With_feedback#Perl_6",
+                      "http://rosettacode.org/wiki/Jensen%27s_Device#Perl_6",
                       "http://rosettacode.org/wiki/Execute_Brain****#Perl_6" ],
         "spec"    : [ ]
       }, {
@@ -36,7 +38,8 @@
       }, {
         "item"    : "Dynamic variables",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Environment_variables#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Environment_variables#Perl_6",
+                      "http://rosettacode.org/wiki/Scope_modifiers#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Basic types (strings, numbers)",
@@ -77,17 +80,19 @@
       }, {
         "item"    : "Blocks",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Higher-order_functions#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Higher-order_functions#Perl_6",
+                      "http://rosettacode.org/wiki/Jensen%27s_Device#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Special variables",
         "status"  : "rm+ (outdated specification) rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Special_variables#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "eval",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Runtime_evaluation#Perl_6",
+                      "http://rosettacode.org/wiki/Numerical_integration#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Constant declarations",
@@ -98,7 +103,7 @@
       }, {
         "item"    : "State variables",
         "status"  : "rm- rn- n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Scope_modifiers#Perl_6" ],
         "spec"    : [ ]
       }]
   }, 
@@ -124,17 +129,19 @@
       }, {
         "item"    : "Read-only accessors",
         "status"  : "rm+ rn+ n-",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Knapsack_problem/0-1#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Read-write accessors",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Knapsack_problem/Continuous#Perl_6",
+                      "http://rosettacode.org/wiki/Polymorphism#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Default constructor",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Knapsack_problem/0-1#Perl_6",
+                      "http://rosettacode.org/wiki/Polymorphism#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Natively typed attributes",
@@ -153,12 +160,12 @@
       {
         "item"    : "Roles with attributes and methods",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Parametric_polymorphism#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Composing roles into classes",
         "status"  : "rm+ rn+ n+- (runtime composition only)",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Parametric_polymorphism#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Composing roles into roles",
@@ -168,7 +175,8 @@
       }, {
         "item"    : "Parametric roles",
         "status"  : "rm+ rn+- n+-",
-        "code"    : [ "http://rosettacode.org/wiki/Constrained_genericity#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Parametric_polymorphism#Perl_6",
+                      "http://rosettacode.org/wiki/Constrained_genericity#Perl_6" ],
         "spec"    : [ ]
       } ]
   },
@@ -198,12 +206,12 @@
       {
         "item"    : "Quantifiers, alternations",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Soundex#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Match objects",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Multisplit#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Named and positional captures",
@@ -223,7 +231,7 @@
       }, {
         "item"    : "Character classes",
         "status"  : "rm+- (no backslash escapes) rn+- (no backslash escapes) n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Soundex#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Unicode properties",
@@ -238,7 +246,7 @@
       }, {
         "item"    : "Variable interpolation",
         "status"  : "rm+- (only scalars) rn- n+- (only scalars)",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Multisplit#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Grammars",
@@ -262,12 +270,13 @@
       {
         "item"    : "Positional args/params",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Four_bit_adder#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Pythagorean_triples#Perl_6",
+                      "http://rosettacode.org/wiki/Four_bit_adder#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Named args/params",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Named_parameters#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Slurpy args/params",
@@ -291,7 +300,8 @@
         "item"    : "is rw, is copy",
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Ethiopian_multiplication#Perl_6",
-                      "http://rosettacode.org/wiki/Deconvolution/2D%2B#Perl_6" ],
+                      "http://rosettacode.org/wiki/Deconvolution/2D%2B#Perl_6",
+                      "http://rosettacode.org/wiki/Jensen%27s_Device#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Argument coercion",
@@ -310,7 +320,9 @@
       {
         "item"    : "Strings, split, join, case folding, substr",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Look-and-say_sequence#Perl_6",
+                      "http://rosettacode.org/wiki/Number_names#Perl_6",
+                      "http://rosettacode.org/wiki/Soundex#Perl_6" ],
         "spec"    : [ "http://perlcabal.org/syn/S32/Str.html" ]
       }, {
         "item"    : "Basic numbers, arithmetic operations",
@@ -320,28 +332,30 @@
       }, {
         "item"    : "Big integers",
         "status"  : "rm- (promotes to num) rn- (promotes to num) n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Arbitrary-precision_integers_(included)#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Complex numbers",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Arithmetic/Complex#Perl_6" ],
         "spec"    : [ "http://perlcabal.org/syn/S32/Numeric.html#Complex" ]
       }, {
         "item"    : "Rat type",
         "status"  : "rm+  rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Numerical_integration#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Hashes, Pairs",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Inverted_index#Perl_6" ],
         "spec"    : [ "http://perlcabal.org/syn/S32/Numeric.html#Rat" ]
       }, {
         "item"    : "Lists, arrays, map, grep",
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Filter#Perl_6",
-                      "http://rosettacode.org/wiki/Factors_of_an_integer#Perl_6" ],
+                      "http://rosettacode.org/wiki/Factors_of_an_integer#Perl_6",
+                      "http://rosettacode.org/wiki/Palindrome_detection#Perl_6",
+                      "http://rosettacode.org/wiki/Levenshtein_distance#Perl_6" ],
         "spec"    : [ "http://perlcabal.org/syn/S32/Containers.html" ]
       }, {
         "item"    : "Lazy lists, gather/take",
@@ -359,12 +373,14 @@
       }, {
         "item"    : "Ranges",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Integer_sequence#Perl_6",
+                      "http://rosettacode.org/wiki/Map_range#Perl_6",
+                      "http://rosettacode.org/wiki/Kaprekar_numbers#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Sets, KeySet, KeyBag, ...",
         "status"  : "rm+- rn- n-",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Pangram_checker#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Buf",
@@ -441,7 +457,7 @@
       {
         "item"    : "use",
         "status"  : "rm+- (limited import lists) rn+-(limited import lists) n+- (no import lists)",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/JSON#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "need",
@@ -518,13 +534,15 @@
       }, {
         "item"    : "List infixes",
         "status"  : "rm+- (only two lists) rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Loop_over_multiple_arrays_simultaneously#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Sequence",
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Fibonacci_sequence#Perl_6",
                       "http://rosettacode.org/wiki/Hailstone_sequence#Perl_6",
+                      "http://rosettacode.org/wiki/Look-and-say_sequence#Perl_6",
+                      "http://rosettacode.org/wiki/Luhn_test_of_credit_card_numbers#Perl_6",
                       "http://rosettacode.org/wiki/Dinesman%27s_multiple-dwelling_problem#Perl_6",
                       "http://rosettacode.org/wiki/Greatest_common_divisor#Concise" ],
         "spec"    : [ ]
@@ -541,6 +559,7 @@
         "item"    : "Reduction",
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Dot_product#Perl_6",
+                      "http://rosettacode.org/wiki/Ordered_words#Perl_6",
                       "http://rosettacode.org/wiki/Greatest_element_of_a_list#Perl_6" ],
         "spec"    : [ ]
       }, {
@@ -552,7 +571,8 @@
       }, {
         "item"    : "Assignment",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Gray_code#Perl_6",
+        "code"    : [ "http://rosettacode.org/wiki/Van_der_Corput_sequence#Perl_6",
+                      "http://rosettacode.org/wiki/Gray_code#Perl_6",
                       "http://rosettacode.org/wiki/Hailstone_sequence#Perl_6" ],
         "spec"    : [ ]
       }, {
@@ -563,13 +583,14 @@
       }, {
         "item"    : "Reverse",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Inverted_syntax#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Zip",
         "status"  : "rm+- (only two lists) rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/FizzBuzz#Perl_6",
                       "http://rosettacode.org/wiki/Hash_from_two_arrays#Perl_6",
+                      "http://rosettacode.org/wiki/Pascal%27s_triangle#Perl_6",
                       "http://rosettacode.org/wiki/Forward_difference#Perl_6" ],
         "spec"    : [ ]
       }, {
@@ -577,6 +598,7 @@
         "status"  : "rm+- (only two lists) rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Constrained_random_points_on_a_circle#Perl_6",
                       "http://rosettacode.org/wiki/Hamming_numbers#Perl_6",
+                      "http://rosettacode.org/wiki/Number_names#Perl_6",
                       "http://rosettacode.org/wiki/Find_the_missing_permutation#Perl_6" ],
         "spec"    : [ ]
       }, {
@@ -594,7 +616,7 @@
       {
         "item"    : "Overloading operators",
         "status"  : "rm+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Quaternion_type#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Defining new operators",
@@ -613,7 +635,7 @@
       }, {
         "item"    : "Basic macros",
         "status"  : "rm- rn- n-",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Metaprogramming#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Hygienic macros",
@@ -681,7 +703,13 @@
       {
         "item"    : "Junctions, autothreading",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Prime_decomposition#Perl_6",
+                      "http://rosettacode.org/wiki/N-queens_problem#Perl_6" ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "Currying",
+        "status"  : "rm+ rn- n+",
+        "code"    : [ "http://rosettacode.org/wiki/Partial_function_application#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Whatever-currying",
@@ -691,7 +719,7 @@
       }, {
         "item"    : "REPL",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Interactive_programming#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "MAIN",
@@ -716,7 +744,7 @@
       {
         "item"    : "Introspection",
         "status"  : "rm+ rn+-",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Inheritance/Multiple#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Adding methods",
