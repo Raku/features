@@ -421,7 +421,7 @@
       {
         "item"    : "Multi method dispatch",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Classes#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Multi sub dispatch",
