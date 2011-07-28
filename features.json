@@ -511,7 +511,7 @@
         "spec"    : [ "http://perlcabal.org/syn/S03.html#Chained_comparisons" ]
       }, {
         "item"    : "File tests",
-        "status"  : "rm+ rn- n+-",
+        "status"  : "rm+ rn+ n+-",
         "code"    : [ "http://rosettacode.org/wiki/Ensure_that_a_file_exists#Perl_6",
                       "http://rosettacode.org/wiki/File_size#Perl_6" ],
         "spec"    : [ ]
