@@ -2,7 +2,7 @@
 "COMPILERS": [
   {
     "abbr" : "rm",
-    "name" : "Rakudo/master",
+    "name" : "Rakudo 2011.07",
     "url"  : "http://rakudo.org"
   }, {
     "abbr" : "rn",
