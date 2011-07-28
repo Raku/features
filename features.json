@@ -388,6 +388,11 @@
         "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S32/Containers.html#Buf" ]
       }, {
+        "item"    : "NFG as default",
+        "status"  : "rm- rn- n-",
+        "code"    : [ ],
+        "spec"    : [ ]
+      }, {
         "item"    : "DateTime, Date",
         "status"  : "rm+ rn- n-",
         "code"    : [ "http://rosettacode.org/wiki/Day_of_the_week#Perl_6",
