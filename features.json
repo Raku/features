@@ -65,6 +65,11 @@
         "code"    : [ "http://rosettacode.org/wiki/Classes#Perl_6" ],
         "spec"    : [ ]
       }, {
+        "item"    : "Basic multi dispatch",
+        "status"  : "rm+ rn+ n+",
+        "code"    : [ ],
+        "spec"    : [ ]
+      }, {
         "item"    : "Basic regex support",
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Character_matching#Perl_6" ],
@@ -102,7 +107,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "State variables",
-        "status"  : "rm- rn- n+",
+        "status"  : "rm- rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Scope_modifiers#Perl_6" ],
         "spec"    : [ ]
       }]
@@ -190,7 +195,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Enums",
-        "status"  : "rm+ rn- n+",
+        "status"  : "rm+ rn+- n+",
         "code"    : [ "http://rosettacode.org/wiki/Enumerations#Perl_6",
                       "http://rosettacode.org/wiki/Forest_fire#Perl_6" ],
         "spec"    : [ ]
