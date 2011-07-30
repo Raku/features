@@ -562,6 +562,11 @@
                       "http://rosettacode.org/wiki/Greatest_common_divisor#Concise" ],
         "spec"    : [ ]
       }, {
+        "item"    : "Interpolating word list",
+        "status"  : "rm- rn- n+",
+        "code"    : [ ],
+        "spec"    : [ ]
+      }, {
         "item"    : "Logic cascade (andthen, orelse)",
         "status"  : "rm- rn- n-",
         "code"    : [ ],
