@@ -383,6 +383,22 @@
                       "http://rosettacode.org/wiki/Kaprekar_numbers#Perl_6" ],
         "spec"    : [ ]
       }, {
+        "item"    : "Trigonometric",
+        "status"  : "rm+ rn+ n+",
+        "code"    : [ "http://rosettacode.org/wiki/Dragon_curve#Perl_6",
+                      "http://rosettacode.org/wiki/Fractal_tree#Perl_6" ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "Probabalistic (rand, pick, roll)",
+        "status"  : "rm+ rn+ n+-",
+        "code"    : [ "http://rosettacode.org/wiki/Evolutionary_algorithm#Perl_6" ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "printf, .fmt",
+        "status"  : "rm+ rn+ n-",
+        "code"    : [ "http://rosettacode.org/wiki/Formatted_numeric_output#Perl_6" ],
+        "spec"    : [ ]
+      }, {
         "item"    : "Object hashes, Sets, KeySet, KeyBag, ...",
         "status"  : "rm+- rn- n-",
         "code"    : [ "http://rosettacode.org/wiki/Pangram_checker#Perl_6" ],
@@ -521,25 +537,9 @@
                       "http://rosettacode.org/wiki/File_size#Perl_6" ],
         "spec"    : [ ]
       }, {
-        "item"    : "Trigonometric",
-        "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Dragon_curve#Perl_6",
-                      "http://rosettacode.org/wiki/Fractal_tree#Perl_6" ],
-        "spec"    : [ ]
-      }, {
-        "item"    : "Probabalistic (rand, pick, roll)",
-        "status"  : "rm+ rn+ n+-",
-        "code"    : [ "http://rosettacode.org/wiki/Evolutionary_algorithm#Perl_6" ],
-        "spec"    : [ ]
-      }, {
         "item"    : "Flipflop",
         "status"  : "rm- rn- n+",
         "code"    : [ ],
-        "spec"    : [ ]
-      }, {
-        "item"    : "printf, .fmt",
-        "status"  : "rm+ rn+ n-",
-        "code"    : [ "http://rosettacode.org/wiki/Formatted_numeric_output#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "List infixes",
