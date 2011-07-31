@@ -723,7 +723,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Currying",
-        "status"  : "rm+ rn- n+",
+        "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Partial_function_application#Perl_6" ],
         "spec"    : [ ]
       }, {
