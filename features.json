@@ -159,6 +159,11 @@
         "code"    : [ ],
         "spec"    : [ ]
       }, {
+        "item"    : "Trust relationships",
+        "status"  : "rm- rn+ n-",
+        "code"    : [ ],
+        "spec"    : [ ]
+      }, {
         "item"    : "Natively typed attributes",
         "status"  : "rm- rn+ n-",
         "code"    : [ ],
