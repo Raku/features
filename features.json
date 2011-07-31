@@ -355,11 +355,6 @@
         "code"    : [ "http://rosettacode.org/wiki/Inverted_index#Perl_6" ],
         "spec"    : [ "http://perlcabal.org/syn/S32/Numeric.html#Rat" ]
       }, {
-        "item"    : "Hashes with non-Str keys",
-        "status"  : "rm- rn- n-",
-        "code"    : [ ],
-        "spec"    : [ ]
-      }, {
         "item"    : "Lists, arrays, map, grep",
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Filter#Perl_6",
