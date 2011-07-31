@@ -149,6 +149,16 @@
                       "http://rosettacode.org/wiki/Polymorphism#Perl_6" ],
         "spec"    : [ ]
       }, {
+        "item"    : "Private methods",
+        "status"  : "rm+ rn+ n+",
+        "code"    : [ ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "Submethods",
+        "status"  : "rm+ rn- n+",
+        "code"    : [ ],
+        "spec"    : [ ]
+      }, {
         "item"    : "Natively typed attributes",
         "status"  : "rm- rn+ n-",
         "code"    : [ ],
