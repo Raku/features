@@ -89,6 +89,16 @@
                       "http://rosettacode.org/wiki/Jensen%27s_Device#Perl_6" ],
         "spec"    : [ ]
       }, {
+        "item"    : "Arrow blocks (lambdas)",
+        "status"  : "rm+ rn+ n+",
+        "code"    : [ ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "Placeholder blocks",
+        "status"  : "rm+ rn+ n+",
+        "code"    : [ ],
+        "spec"    : [ ]
+      }, {
         "item"    : "Special variables",
         "status"  : "rm+ (outdated specification) rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Special_variables#Perl_6" ],
