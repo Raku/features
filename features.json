@@ -169,7 +169,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Submethods",
-        "status"  : "rm+ rn- n+",
+        "status"  : "rm+ rn+ n+",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
