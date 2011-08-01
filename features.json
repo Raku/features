@@ -29,7 +29,7 @@
                       "http://rosettacode.org/wiki/Guess_the_number/With_feedback#Perl_6",
                       "http://rosettacode.org/wiki/Jensen%27s_Device#Perl_6",
                       "http://rosettacode.org/wiki/Execute_Brain****#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S04.html" ]
       }, {
         "item"    : "Lexical variables",
         "status"  : "rm+ rn+ n+",
@@ -37,7 +37,8 @@
                       "http://rosettacode.org/wiki/Closures/Variable_capture#Perl_6",
                       "http://rosettacode.org/wiki/Man_or_boy_test#Perl_6",
                       "http://rosettacode.org/wiki/Draw_a_cuboid#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S04.html#The_Relationship_of_Lexical_and_Dynamic_Scopes",
+	              "http://perlcabal.org/syn/S02.html#Names_and_Variables" ]
       }, {
         "item"    : "Dynamic variables",
         "status"  : "rm+ rn+ n+",
@@ -53,7 +54,8 @@
                       "http://rosettacode.org/wiki/Fibonacci_sequence#Perl_6",
                       "http://rosettacode.org/wiki/Averages/Simple_moving_average#Perl_6",
                       "http://rosettacode.org/wiki/Convert_decimal_number#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S02.html#Immutable_types",
+	              "http://perlcabal.org/syn/S02.html#Literals" ]
       }, {
         "item"    : "Basic file IO",
         "status"  : "rm+ rn+ n+-",
@@ -61,23 +63,24 @@
                       "http://rosettacode.org/wiki/Read_a_file_line_by_line#Perl_6",
                       "http://rosettacode.org/wiki/Read_entire_file#Perl_6",
                       "http://rosettacode.org/wiki/Create_a_file#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S32/IO.html#IO" ]
       }, {
         "item"    : "Basic OO",
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://perl6advent.wordpress.com/2009/12/11/day-11-classes-attributes-methods-and-more/",
                       "http://rosettacode.org/wiki/Classes#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S12.html#Classes",
+	              "http://perlcabal.org/syn/S12.html#Methods" ]
       }, {
         "item"    : "Basic multi dispatch",
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://perl6advent.wordpress.com/2009/12/03/day-3-static-types-and-multi-subs/" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S13.html#Multiple_dispatch" ]
       }, {
         "item"    : "Basic regex support",
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Character_matching#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S05.html#Unchanged_syntactic_features" ]
       }, {
         "item"    : "Subroutines",
         "status"  : "rm+ rn+ n+",
@@ -85,45 +88,45 @@
                       "http://rosettacode.org/wiki/Function_definition#Perl_6",
                       "http://rosettacode.org/wiki/Call_a_function#Perl_6",
                       "http://rosettacode.org/wiki/Draw_a_cuboid#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S06.html#Named_subroutines" ]
       }, {
         "item"    : "Blocks",
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Jensen%27s_Device#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S06.html#Blocks" ]
       }, {
         "item"    : "Arrow blocks (lambdas)",
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Higher-order_functions#Perl_6",
                       "http://rosettacode.org/wiki/Range_expansion#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S06.html#%22Pointy_blocks%22" ]
       }, {
         "item"    : "Placeholder blocks",
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Quine#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S06.html#Placeholder_variables" ]
       }, {
         "item"    : "Special variables",
         "status"  : "rm+ (outdated specification) rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Special_variables#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S06.html#Subroutines_and_other_code_objects" ]
       }, {
         "item"    : "eval",
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Runtime_evaluation#Perl_6",
                       "http://rosettacode.org/wiki/Numerical_integration#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S29.html#Context" ]
       }, {
         "item"    : "Constant declarations",
         "status"  : "rm- rn+- (only literals) n+",
         "code"    : [ "http://rosettacode.org/wiki/Compile-time_calculation#Perl_6",
                       "http://rosettacode.org/wiki/Enforced_immutability#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S03.html#Declarators" ]
       }, {
         "item"    : "State variables",
         "status"  : "rm- rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Scope_modifiers#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S03.html#Declarators" ]
       }]
   }, 
   { "section": "Classes",
@@ -488,7 +491,8 @@
       }, {
         "item"    : "Multi sub dispatch",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Combinations#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Combinations#Perl_6",
+	              "http://rosettacode.org/wiki/Roman_numerals/Encode#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Protos",
@@ -556,7 +560,7 @@
         "code"    : [ "http://perl6advent.wordpress.com/2010/12/12/day-12-%E2%80%93-smart-matching/",
                       "http://rosettacode.org/wiki/FizzBuzz#Perl_6",
                       "http://rosettacode.org/wiki/Guess_the_number/With_feedback#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S03.html#Smart_matching" ]
       }, {
         "item"    : "Numeric bitops",
         "status"  : "rm+ rn+ n+",
