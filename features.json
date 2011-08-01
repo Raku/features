@@ -85,18 +85,18 @@
       }, {
         "item"    : "Blocks",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Higher-order_functions#Perl_6",
-                      "http://rosettacode.org/wiki/Jensen%27s_Device#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Jensen%27s_Device#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Arrow blocks (lambdas)",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Higher-order_functions#Perl_6",
+                      "http://rosettacode.org/wiki/Range_expansion#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Placeholder blocks",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ ],
+        "code"    : [ "http://rosettacode.org/wiki/Quine#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Special variables",
@@ -236,7 +236,8 @@
       {
         "item"    : "Quantifiers, alternations",
         "status"  : "rm+ rn+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Soundex#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Soundex#Perl_6",
+                      "http://rosettacode.org/wiki/Roman_numerals/Decode#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Match objects",
@@ -256,7 +257,8 @@
       }, {
         "item"    : "Longest-Token Matching",
         "status"  : "rm+- (only for constants) rn- n+",
-        "code"    : [ "http://rosettacode.org/wiki/Read_a_configuration_file#Perl_6" ],
+        "code"    : [ "http://rosettacode.org/wiki/Read_a_configuration_file#Perl_6",
+                      "http://rosettacode.org/wiki/Roman_numerals/Decode#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Character classes",
@@ -393,6 +395,7 @@
         "code"    : [ "http://rosettacode.org/wiki/Catalan_numbers#Perl_6",
                       "http://rosettacode.org/wiki/Equilibrium_index#Perl_6",
                       "http://rosettacode.org/wiki/Huffman_coding#Perl_6",
+                      "http://rosettacode.org/wiki/Read_a_specific_line_from_a_file#Perl_6",
                       "http://rosettacode.org/wiki/Generator#Perl_6" ],
         "spec"    : [ ]
       }, {
