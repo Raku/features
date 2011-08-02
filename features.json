@@ -137,44 +137,44 @@
         "code"    : [ "http://rosettacode.org/wiki/Classes#Perl_6",
                       "http://rosettacode.org/wiki/Forest_fire#Perl_6",
                       "http://rosettacode.org/wiki/Execute_Brain****#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S12.html#Classes" ]
       }, {
         "item"    : "Single inheritance",
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Inheritance/Single#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S12.html#Classes" ]
       }, {
         "item"    : "Multiple inheritance",
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Inheritance/Multiple#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S12.html#Classes" ]
       }, {
         "item"    : "Read-only accessors",
         "status"  : "rm+ rn+ n-",
         "code"    : [ "http://rosettacode.org/wiki/Knapsack_problem/0-1#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S12.html#Attributes" ]
       }, {
         "item"    : "Read-write accessors",
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Knapsack_problem/Continuous#Perl_6",
                       "http://rosettacode.org/wiki/Polymorphism#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S12.html#Attributes" ]
       }, {
         "item"    : "Default constructor",
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Knapsack_problem/0-1#Perl_6",
                       "http://rosettacode.org/wiki/Polymorphism#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S12.html#Construction_and_Initialization" ]
       }, {
         "item"    : "Private methods",
         "status"  : "rm+ rn+ n+",
         "code"    : [ ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S12.html#Methods" ]
       }, {
         "item"    : "Submethods",
         "status"  : "rm+ rn+ n+",
         "code"    : [ ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S12.html#Submethods" ]
       }, {
         "item"    : "Trust relationships",
         "status"  : "rm- rn+ n-",
