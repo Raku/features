@@ -626,7 +626,7 @@
     "items": [
       {
         "item"    : "Reduction",
-        "status"  : "rm+ rn+ n+",
+        "status"  : "rm+ rn+ n+- (missing degenerate case)",
         "code"    : [ "http://perl6advent.wordpress.com/2009/12/05/day-5-metaoperator/",
                       "http://rosettacode.org/wiki/Dot_product#Perl_6",
                       "http://rosettacode.org/wiki/Ordered_words#Perl_6",
@@ -640,7 +640,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Assignment",
-        "status"  : "rm+ rn+ n+",
+        "status"  : "rm+ rn+ n+- (missing degenerate case)",
         "code"    : [ "http://rosettacode.org/wiki/Van_der_Corput_sequence#Perl_6",
                       "http://rosettacode.org/wiki/Gray_code#Perl_6",
                       "http://rosettacode.org/wiki/Hailstone_sequence#Perl_6" ],
