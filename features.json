@@ -781,12 +781,12 @@
         "code"    : [ "http://perl6advent.wordpress.com/2009/12/13/day-13-junctions/",
                       "http://rosettacode.org/wiki/Prime_decomposition#Perl_6",
                       "http://rosettacode.org/wiki/N-queens_problem#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S09.html#Autothreading_types" ]
       }, {
         "item"    : "Currying",
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Partial_function_application#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S06.html#Currying" ]
       }, {
         "item"    : "Whatever-currying",
         "status"  : "rm+ rn+- n+",
@@ -803,27 +803,28 @@
         "status"  : "rm+ rn- n-",
         "code"    : [ "http://rosettacode.org/wiki/Guess_the_number/With_feedback_(player)#Perl_6",
                       "http://perl6advent.wordpress.com/2010/12/02/day-2-interacting-with-the-command-line-with-main-subs/" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S06.html#Declaring_a_MAIN_subroutine" ]
       }, {
         "item"    : "run, qx",
         "status"  : "rm+ rn+ n-",
         "code"    : [ "http://rosettacode.org/wiki/Execute_a_system_command#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S29.html#OS",
+	              "http://perlcabal.org/syn/S02.html#Literals" ]
       }, {
         "item"    : "Environment vars",
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Environment_variables#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S28.html#Named_variables" ]
       }, {
         "item"    : "PROCESS, GLOBAL, CALLER, DYNAMIC",
         "status"  : "rm+- rn+- n+-",
         "code"    : [ ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S02.html#Names" ]
       }, {
         "item"    : "CORE, SETTING, UNIT, OUTER, MY, OUR",
         "status"  : "rm- rn- n+",
         "code"    : [ ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S02.html#Names" ]
       } ]
   },
   {
