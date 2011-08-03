@@ -439,7 +439,8 @@
         "item"    : "printf, .fmt",
         "status"  : "rm+ rn+ n-",
         "code"    : [ "http://perl6advent.wordpress.com/2009/12/03/day-3-static-types-and-multi-subs/",
-                      "http://rosettacode.org/wiki/Formatted_numeric_output#Perl_6" ],
+                      "http://rosettacode.org/wiki/Formatted_numeric_output#Perl_6",
+		      "http://rosettacode.org/wiki/Non-decimal_radices/Output#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Object hashes, Sets, KeySet, KeyBag, ...",
@@ -812,6 +813,16 @@
         "item"    : "Environment vars",
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Environment_variables#Perl_6" ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "PROCESS, GLOBAL, CALLER, DYNAMIC",
+        "status"  : "rm+- rn+- n+-",
+        "code"    : [ ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "CORE, SETTING, UNIT, OUTER, MY, OUR",
+        "status"  : "rm- rn- n+",
+        "code"    : [ ],
         "spec"    : [ ]
       } ]
   },
