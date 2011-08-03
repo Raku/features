@@ -142,12 +142,12 @@
         "item"    : "Single inheritance",
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Inheritance/Single#Perl_6" ],
-        "spec"    : [ "http://perlcabal.org/syn/S12.html#Classes" ]
+        "spec"    : [ "http://perlcabal.org/syn/S12.html#Single_inheritance" ]
       }, {
         "item"    : "Multiple inheritance",
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Inheritance/Multiple#Perl_6" ],
-        "spec"    : [ "http://perlcabal.org/syn/S12.html#Classes" ]
+        "spec"    : [ "http://perlcabal.org/syn/S12.html#Multiple_inheritance" ]
       }, {
         "item"    : "Read-only accessors",
         "status"  : "rm+ rn+ n-",
@@ -169,7 +169,7 @@
         "item"    : "Private methods",
         "status"  : "rm+ rn+ n+",
         "code"    : [ ],
-        "spec"    : [ "http://perlcabal.org/syn/S12.html#Methods" ]
+        "spec"    : [ "http://perlcabal.org/syn/S12.html#Private_methods" ]
       }, {
         "item"    : "Submethods",
         "status"  : "rm+ rn+ n+",
@@ -179,7 +179,7 @@
         "item"    : "Trust relationships",
         "status"  : "rm- rn+ n-",
         "code"    : [ ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S12.html#Trusts" ]
       }, {
         "item"    : "Natively typed attributes",
         "status"  : "rm- rn+ n-",
@@ -189,7 +189,7 @@
         "item"    : "Delegation",
         "status"  : "rm+- rn- n-",
         "code"    : [ ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S12.html#Delegation" ]
       }]
   },
   { "section": "Roles",
