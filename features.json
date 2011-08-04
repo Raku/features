@@ -697,7 +697,7 @@
     "items": [
       {
         "item"    : "Overloading operators",
-        "status"  : "rm+ n+",
+        "status"  : "rm+ rn+ n+",
         "code"    : [ "http://perl6advent.wordpress.com/2009/12/22/day-22-operator-overloading/",
                       "http://rosettacode.org/wiki/Quaternion_type#Perl_6" ],
         "spec"    : [ ]
