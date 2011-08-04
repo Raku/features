@@ -762,7 +762,7 @@
         "item"    : "CATCH",
         "status"  : "rm+ rn+- n-",
         "code"    : [ "http://rosettacode.org/wiki/Exceptions#Perl_6",
-                      "http://rosettacode.org/wiki/Detect_division_by_zero#Perl_6" ],
+                      "http://rosettacode.org/wiki/Detect_division_by_zero#Perl_6" ]
       }, {
         "item"    : "ENTER/LEAVE",
         "status"  : "rm- rn- n-",
@@ -772,7 +772,6 @@
         "item"    : "FIRST/NEXT/LAST",
         "status"  : "rm- rn- n-",
         "code"    : [ ],
-        "spec"    : [ ]
         "spec"    : [ ]
       }, {
         "item"    : "PRE/POST",
