@@ -598,11 +598,6 @@
                       "http://perl6advent.wordpress.com/2010/12/03/day-3-file-operations/" ],
         "spec"    : [ ]
       }, {
-        "item"    : "Flipflop",
-        "status"  : "rm- rn- n+",
-        "code"    : [ ],
-        "spec"    : [ ]
-      }, {
         "item"    : "List infixes",
         "status"  : "rm+- (only two lists) rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Loop_over_multiple_arrays_simultaneously#Perl_6" ],
@@ -617,6 +612,11 @@
                       "http://rosettacode.org/wiki/Luhn_test_of_credit_card_numbers#Perl_6",
                       "http://rosettacode.org/wiki/Dinesman%27s_multiple-dwelling_problem#Perl_6",
                       "http://rosettacode.org/wiki/Greatest_common_divisor#Concise" ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "Flipflop",
+        "status"  : "rm- rn- n+",
+        "code"    : [ ],
         "spec"    : [ ]
       }, {
         "item"    : "Interpolating word list",
@@ -759,6 +759,11 @@
         "code"    : [ "http://rosettacode.org/wiki/Compile-time_calculation#Perl_6" ],
         "spec"    : [ ]
       }, {
+        "item"    : "CATCH",
+        "status"  : "rm+ rn+- n-",
+        "code"    : [ "http://rosettacode.org/wiki/Exceptions#Perl_6",
+                      "http://rosettacode.org/wiki/Detect_division_by_zero#Perl_6" ],
+      }, {
         "item"    : "ENTER/LEAVE",
         "status"  : "rm- rn- n-",
         "code"    : [ ],
@@ -768,11 +773,6 @@
         "status"  : "rm- rn- n-",
         "code"    : [ ],
         "spec"    : [ ]
-      }, {
-        "item"    : "CATCH",
-        "status"  : "rm+ rn+- n-",
-        "code"    : [ "http://rosettacode.org/wiki/Exceptions#Perl_6",
-                      "http://rosettacode.org/wiki/Detect_division_by_zero#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "PRE/POST",
