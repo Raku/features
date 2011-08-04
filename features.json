@@ -866,27 +866,27 @@
     "items": [
       {
         "item"    : "Multiline Comments",
-        "status"  : "n+",
+        "status"  : "rm+ rn+ n+",
         "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S02.html#Multiline_Comments" ]
       }, {
         "item"    : "Embedded Comments",
-        "status"  : "n+",
+        "status"  : "rm+ rn+ n+",
         "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S02.html#Embedded_Comments" ]
       }, {
         "item"    : "Bracketing Characters",
-        "status"  : "n+",
+        "status"  : "rm+ rn+ n+",
         "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S02.html#Bracketing_Characters" ]
       }, {
         "item"    : "User-selected Brackets",
-        "status"  : "n+",
+        "status"  : "rm+ rn+ n+",
         "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S02.html#User-selected_Brackets" ]
       }, {
         "item"    : "Unspaces",
-        "status"  : "n+",
+        "status"  : "rm+ rn+ n+",
         "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S02.html#Unspaces" ]
       } ]
