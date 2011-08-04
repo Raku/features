@@ -448,15 +448,18 @@
         "code"    : [ "http://rosettacode.org/wiki/Pangram_checker#Perl_6" ],
         "spec"    : [ ]
       }, {
-        "item"    : "Buf",
+        "item"    : "Buf, buf, utf8",
         "status"  : "rm+- rn- n-",
         "code"    : [ ],
-        "spec"    : [ "http://perlcabal.org/syn/S32/Containers.html#Buf" ]
+        "spec"    : [ "http://perlcabal.org/syn/S32/Containers.html#Buf",
+                      "http://perlcabal.org/syn/S02.html#Native_buf_Types",
+                      "http://perlcabal.org/syn/S02.html#The_utf8_Type" ]
       }, {
-        "item"    : "NFG as default",
+        "item"    : "NFG as default, StrPos/StrLen",
         "status"  : "rm- rn- n-",
         "code"    : [ ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S02.html#The_StrPos_Type",
+                      "http://perlcabal.org/syn/S02.html#The_StrLen_Type" ]
       }, {
         "item"    : "DateTime, Date",
         "status"  : "rm+ rn- n-",
@@ -481,30 +484,10 @@
         "code"    : [ ],
         "spec"    : "http://perlcabal.org/syn/S09.html#Fixed-size_arrays"
       }, {
-        "item"    : "ObjAt",
+        "item"    : "ObjAt from WHICH",
         "status"  : "",
         "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S02.html#The_ObjAt_Type" ]
-      }, {
-        "item"    : "StrPos",
-        "status"  : "",
-        "code"    : [ ],
-        "spec"    : [ "http://perlcabal.org/syn/S02.html#The_StrPos_Type" ]
-      }, {
-        "item"    : "StrLen",
-        "status"  : "",
-        "code"    : [ ],
-        "spec"    : [ "http://perlcabal.org/syn/S02.html#The_StrLen_Type" ]
-      }, {
-        "item"    : "Native buf Types",
-        "status"  : "",
-        "code"    : [ ],
-        "spec"    : [ "http://perlcabal.org/syn/S02.html#Native_buf_Types" ]
-      }, {
-        "item"    : "The utf8 Type",
-        "status"  : "",
-        "code"    : [ ],
-        "spec"    : [ "http://perlcabal.org/syn/S02.html#The_utf8_Type" ]
       } ]
   },
   { "section": "Multi dispatch",
