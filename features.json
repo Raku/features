@@ -480,6 +480,31 @@
         "status"  : "rm- rn- n-",
         "code"    : [ ],
         "spec"    : "http://perlcabal.org/syn/S09.html#Fixed-size_arrays"
+      }, {
+        "item"    : "ObjAt",
+        "status"  : "",
+        "code"    : [ ],
+        "spec"    : [ "http://perlcabal.org/syn/S02.html#The_ObjAt_Type" ]
+      }, {
+        "item"    : "StrPos",
+        "status"  : "",
+        "code"    : [ ],
+        "spec"    : [ "http://perlcabal.org/syn/S02.html#The_StrPos_Type" ]
+      }, {
+        "item"    : "StrLen",
+        "status"  : "",
+        "code"    : [ ],
+        "spec"    : [ "http://perlcabal.org/syn/S02.html#The_StrLen_Type" ]
+      }, {
+        "item"    : "Native buf Types",
+        "status"  : "",
+        "code"    : [ ],
+        "spec"    : [ "http://perlcabal.org/syn/S02.html#Native_buf_Types" ]
+      }, {
+        "item"    : "The utf8 Type",
+        "status"  : "",
+        "code"    : [ ],
+        "spec"    : [ "http://perlcabal.org/syn/S02.html#The_utf8_Type" ]
       } ]
   },
   { "section": "Multi dispatch",
@@ -851,6 +876,36 @@
         "status"  : "rn+",
         "code"    : [ ],
         "spec"    : [ ]
+      } ]
+  },
+  {
+    "section": "Lexing and Parsing",
+    "items": [
+      {
+        "item"    : "Multiline Comments",
+        "status"  : "",
+        "code"    : [ ],
+        "spec"    : [ "http://perlcabal.org/syn/S02.html#Multiline_Comments" ]
+      }, {
+        "item"    : "Embedded Comments",
+        "status"  : "",
+        "code"    : [ ],
+        "spec"    : [ "http://perlcabal.org/syn/S02.html#Embedded_Comments" ]
+      }, {
+        "item"    : "Bracketing Characters",
+        "status"  : "",
+        "code"    : [ ],
+        "spec"    : [ "http://perlcabal.org/syn/S02.html#Bracketing_Characters" ]
+      }, {
+        "item"    : "User-selected Brackets",
+        "status"  : "",
+        "code"    : [ ],
+        "spec"    : [ "http://perlcabal.org/syn/S02.html#User-selected_Brackets" ]
+      }, {
+        "item"    : "Unspaces",
+        "status"  : "",
+        "code"    : [ ],
+        "spec"    : [ "http://perlcabal.org/syn/S02.html#Unspaces" ]
       } ]
   } ]
 }
