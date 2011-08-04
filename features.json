@@ -883,28 +883,28 @@
     "items": [
       {
         "item"    : "Multiline Comments",
-        "status"  : "",
-        "code"    : [ n+ ],
+        "status"  : "n+",
+        "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S02.html#Multiline_Comments" ]
       }, {
         "item"    : "Embedded Comments",
-        "status"  : "",
-        "code"    : [ n+ ],
+        "status"  : "n+",
+        "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S02.html#Embedded_Comments" ]
       }, {
         "item"    : "Bracketing Characters",
-        "status"  : "",
-        "code"    : [ n+ ],
+        "status"  : "n+",
+        "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S02.html#Bracketing_Characters" ]
       }, {
         "item"    : "User-selected Brackets",
-        "status"  : "",
-        "code"    : [ n+ ],
+        "status"  : "n+",
+        "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S02.html#User-selected_Brackets" ]
       }, {
         "item"    : "Unspaces",
-        "status"  : "",
-        "code"    : [ n+ ],
+        "status"  : "n+",
+        "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S02.html#Unspaces" ]
       } ]
   } ]
