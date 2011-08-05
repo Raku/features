@@ -825,7 +825,7 @@
         "spec"    : [ "http://perlcabal.org/syn/S28.html#Named_variables" ]
       }, {
         "item"    : "PROCESS, GLOBAL, CALLER, DYNAMIC",
-        "status"  : "rm+- rn+- n+-",
+        "status"  : "rm+- rn+- n+",
         "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S02.html#Names" ]
       }, {
