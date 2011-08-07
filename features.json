@@ -334,7 +334,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Nested signatures",
-        "status"  : "rm+ rn- n-",
+        "status"  : "rm+ rn+ n-",
         "code"    : [ "http://rosettacode.org/wiki/Draw_a_cuboid#Perl_6",
                       "http://rosettacode.org/wiki/Pattern_matching#Perl_6",
                       "http://rosettacode.org/wiki/Forward_difference#Perl_6" ],
