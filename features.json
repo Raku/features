@@ -187,7 +187,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Delegation",
-        "status"  : "rm+- rn- n-",
+        "status"  : "rm+- rn+ n-",
         "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S12.html#Delegation" ]
       }]
