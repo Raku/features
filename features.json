@@ -683,7 +683,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Hyper",
-        "status"  : "rm+ rn- n+",
+        "status"  : "rm+ rn+ n+",
         "code"    : [ "http://perl6advent.wordpress.com/2009/12/05/day-5-metaoperator/",
                       "http://perl6advent.wordpress.com/2009/12/06/day-6-going-into-hyperspace/",
                       "http://rosettacode.org/wiki/Element-wise_operations#Perl_6",
