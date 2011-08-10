@@ -348,9 +348,9 @@
         "spec"    : [ ]
       }, {
         "item"    : "Argument coercion",
-        "status"  : "rm+ rn+ n-",
+        "status"  : "rm+ (outdated specification) rn+ (outdated specification) n-",
         "code"    : [ ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S02.html#Coercive_type_declarations" ]
       }, {
         "item"    : "Type captures",
         "status"  : "rm+ rn+ n-",
