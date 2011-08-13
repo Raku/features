@@ -39,7 +39,7 @@ my %rating_class = (
     '+-' => 'partial',
     '?'  => 'unknown',
 );
-my %rating_text = ( '+-' => "\N{U+00B1}" );
+my %rating_text = ( '+-' => "\N{U+00B1}", '-' => "\N{U+2212}" );
 for my $sec (@{$data->{'sections'}}) {
     for my $item (@{$sec->{'items'}}) {
         my $status = $item->{'status'};
