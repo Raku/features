@@ -526,7 +526,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Additional constraints",
-        "status"  : "rm+ n-",
+        "status"  : "rm+ rn+ n-",
         "code"    : [ "http://rosettacode.org/wiki/Pattern_matching#Perl_6",
                       "http://rosettacode.org/wiki/Detect_division_by_zero#Perl_6" ],
         "spec"    : [ ]
@@ -546,7 +546,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "need",
-        "status"  : "",
+        "status"  : "rn+",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
