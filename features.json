@@ -889,6 +889,11 @@
         "status"  : "rm+ rn+ n+",
         "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S02.html#Unspaces" ]
+      }, {
+        "item"    : "Pod",
+        "status"  : "rm- rn+ n+- (parsing only, no $=POD)",
+        "code"    : [ ],
+        "spec"    : [ "http://perlcabal.org/syn/S26.html" ]
       } ]
   } ]
 }
