@@ -281,7 +281,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Embedded code blocks",
-        "status"  : "rm+ rn- n+",
+        "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Read_a_configuration_file#Perl_6" ],
         "spec"    : [ ]
       }, {
@@ -291,7 +291,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Grammars",
-        "status"  : "rm+ rn- n+",
+        "status"  : "rm+ rn+ n+",
         "code"    : [ "http://perl6advent.wordpress.com/2009/12/21/day-21-grammars-and-actions/",
                       "http://rosettacode.org/wiki/Read_a_configuration_file#Perl_6" ],
         "spec"    : [ ]
