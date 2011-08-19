@@ -741,8 +741,8 @@
         "code"    : [ ],
         "spec"    : [ ]
       }, {
-        "item"    : "Parallelized hyper operators",
-        "status"  : "rm- rn-",
+        "item"    : "Parallelized hypers and junctions",
+        "status"  : "rm- rn- n-",
         "code"    : [ "http://rosettacode.org/wiki/Concurrent_computing#Perl_6" ],
         "spec"    : [ ]
       }, {
