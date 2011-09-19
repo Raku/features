@@ -212,7 +212,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Parametric roles",
-        "status"  : "rm+ rn+- n+-",
+        "status"  : "rm+ rn+ n+-",
         "code"    : [ "http://rosettacode.org/wiki/Parametric_polymorphism#Perl_6",
                       "http://rosettacode.org/wiki/Constrained_genericity#Perl_6" ],
         "spec"    : [ ]
