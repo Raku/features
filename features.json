@@ -797,7 +797,7 @@
         "spec"    : [ "http://perlcabal.org/syn/S06.html#Currying" ]
       }, {
         "item"    : "Whatever-currying",
-        "status"  : "rm+ rn+- n+",
+        "status"  : "rm+ rn+ n+",
         "code"    : [ "http://perl6advent.wordpress.com/2009/12/19/day-19-whatever/",
                       "http://rosettacode.org/wiki/First-class_functions#Perl_6" ],
         "spec"    : [ ]
@@ -847,11 +847,6 @@
       }, {
         "item"    : "Adding methods",
         "status"  : "rm+ rn+",
-        "code"    : [ ],
-        "spec"    : [ ]
-      }, {
-        "item"    : "Inheritance manipulation",
-        "status"  : "",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
