@@ -462,7 +462,7 @@
                       "http://perlcabal.org/syn/S02.html#The_StrLen_Type" ]
       }, {
         "item"    : "DateTime, Date",
-        "status"  : "rm+ rn- n-",
+        "status"  : "rm+ rn+- n-",
         "code"    : [ "http://perl6advent.wordpress.com/2010/12/16/day-16-time-in-perl6/",
                       "http://rosettacode.org/wiki/Day_of_the_week#Perl_6",
                       "http://rosettacode.org/wiki/Five_weekends#Perl_6",
@@ -840,7 +840,7 @@
     "items": [
       {
         "item"    : "Introspection",
-        "status"  : "rm+ rn+-",
+        "status"  : "rm+ rn+",
         "code"    : [ "http://perl6advent.wordpress.com/2010/12/22/day-22-the-meta-object-protocol/",
                       "http://rosettacode.org/wiki/Inheritance/Multiple#Perl_6" ],
         "spec"    : [ ]
