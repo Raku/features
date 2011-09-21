@@ -486,7 +486,7 @@
       }, {
         "item"    : "ObjAt from WHICH",
         "status"  : "",
-        "code"    : [ ],
+        "code"    : [ rm- rn- ],
         "spec"    : [ "http://perlcabal.org/syn/S02.html#The_ObjAt_Type" ]
       } ]
   },
@@ -546,12 +546,12 @@
         "spec"    : [ ]
       }, {
         "item"    : "need",
-        "status"  : "rn+",
+        "status"  : "rm- rn+",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
         "item"    : "require",
-        "status"  : "rm+- (no import lists) n+- (precompilation required)",
+        "status"  : "rm+- (no import lists) rn- n+- (precompilation required)",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
@@ -704,7 +704,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Defining new operators",
-        "status"  : "rm+ n+",
+        "status"  : "rm+ rn- n+",
         "code"    : [ "http://rosettacode.org/wiki/Function_composition#Perl_6", 
                       "http://rosettacode.org/wiki/Exponentiation_operator.html#Perl_6", 
                       "http://rosettacode.org/wiki/Generator#Perl_6", 
@@ -851,7 +851,12 @@
         "spec"    : [ ]
       }, {
         "item"    : "Role composition",
-        "status"  : "rn+",
+        "status"  : "rm+- rn+",
+        "code"    : [ ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "Overriding dispatch",
+        "status"  : "rm- rn+",
         "code"    : [ ],
         "spec"    : [ ]
       } ]
