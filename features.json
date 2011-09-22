@@ -485,8 +485,8 @@
         "spec"    : "http://perlcabal.org/syn/S09.html#Fixed-size_arrays"
       }, {
         "item"    : "ObjAt from WHICH",
-        "status"  : "",
-        "code"    : [ rm- rn- ],
+        "status"  : "rm- rn-",
+        "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S02.html#The_ObjAt_Type" ]
       } ]
   },
