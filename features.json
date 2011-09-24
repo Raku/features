@@ -207,7 +207,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Composing roles into roles",
-        "status"  : "rm+ rn+",
+        "status"  : "rm+ rn+ n-",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
@@ -437,7 +437,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "printf, .fmt",
-        "status"  : "rm+ rn+ n-",
+        "status"  : "rm+ rn+ n+-",
         "code"    : [ "http://perl6advent.wordpress.com/2009/12/02/day-2-the-beauty-of-formatting/",
                       "http://rosettacode.org/wiki/Formatted_numeric_output#Perl_6",
 		      "http://rosettacode.org/wiki/Non-decimal_radices/Output#Perl_6" ],
@@ -485,7 +485,7 @@
         "spec"    : "http://perlcabal.org/syn/S09.html#Fixed-size_arrays"
       }, {
         "item"    : "ObjAt from WHICH",
-        "status"  : "rm- rn-",
+        "status"  : "rm- rn- n-",
         "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S02.html#The_ObjAt_Type" ]
       } ]
@@ -532,7 +532,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "nextsame, nextwith, callsame, callwith",
-        "status"  : "rm+ rn+",
+        "status"  : "rm+ rn+ n+",
         "code"    : [ "http://perl6advent.wordpress.com/2010/12/14/day-14-nextsame-and-its-cousins/" ],
         "spec"    : [ ]
       }]
@@ -747,7 +747,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Feed operators",
-        "status"  : "rm+- rn+-",
+        "status"  : "rm+- rn+- n-",
         "code"    : [ "http://perl6advent.wordpress.com/2010/12/10/day-10-feed-operators/" ],
         "spec"    : [ ]
       } ]
