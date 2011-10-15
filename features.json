@@ -470,7 +470,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Native operators",
-        "status"  : "rm- rn- n-",
+        "status"  : "rm- rn+- n-",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
