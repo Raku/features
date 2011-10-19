@@ -541,7 +541,7 @@
     "items": [
       {
         "item"    : "use",
-        "status"  : "rm+- (limited import lists) rn+-(limited import lists) n+- (no import lists)",
+        "status"  : "rm+- (limited import lists) rn+- (limited import lists) n+- (no import lists)",
         "code"    : [ "http://rosettacode.org/wiki/JSON#Perl_6" ],
         "spec"    : [ ]
       }, {
@@ -551,7 +551,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "require",
-        "status"  : "rm+- (no import lists) rn- n+- (precompilation required)",
+        "status"  : "rm+- (no import lists) rn+- (no import lists) n+- (precompilation required)",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
