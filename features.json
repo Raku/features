@@ -265,7 +265,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Longest-Token Matching",
-        "status"  : "rm+- (only for constants) rn- n+",
+        "status"  : "rm+- (only for constants) rn+- (only for protoregexes, not standalone alternations) n+",
         "code"    : [ "http://rosettacode.org/wiki/Read_a_configuration_file#Perl_6",
                       "http://rosettacode.org/wiki/Roman_numerals/Decode#Perl_6" ],
         "spec"    : [ ]
@@ -297,7 +297,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Categories across derived grammars",
-        "status"  : "rm+ rn- n+",
+        "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Read_a_configuration_file#Perl_6" ],
         "spec"    : [ ]
       }, {
