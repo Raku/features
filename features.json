@@ -271,7 +271,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Character classes",
-        "status"  : "rm+- (no backslash escapes) rn+- (no backslash escapes) n+",
+        "status"  : "rm+- (no backslash escapes) rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Soundex#Perl_6" ],
         "spec"    : [ ]
       }, {
