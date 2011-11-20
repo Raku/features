@@ -449,7 +449,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Buf, buf, utf8",
-        "status"  : "rm+- rn- n-",
+        "status"  : "rm+- rn+- n-",
         "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S32/Containers.html#Buf",
                       "http://perlcabal.org/syn/S02.html#Native_buf_Types",
