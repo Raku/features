@@ -276,7 +276,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Unicode properties",
-        "status"  : "rm+- (outdated specification) rn- n-",
+        "status"  : "rm+- (outdated specification) rn+- (no set operations yet) n-",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
