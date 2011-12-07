@@ -615,7 +615,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Flipflop",
-        "status"  : "rm- rn- n+",
+        "status"  : "rm- rn+- (only ff versions, no fff) n+",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
@@ -704,7 +704,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Defining new operators",
-        "status"  : "rm+ rn- n+",
+        "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Function_composition#Perl_6", 
                       "http://rosettacode.org/wiki/Exponentiation_operator.html#Perl_6", 
                       "http://rosettacode.org/wiki/Generator#Perl_6", 
