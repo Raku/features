@@ -127,6 +127,11 @@
         "status"  : "rm- rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Scope_modifiers#Perl_6" ],
         "spec"    : [ "http://perlcabal.org/syn/S03.html#Declarators" ]
+      }, {
+        "item"    : "Loops as list generators",
+        "status"  : "rm+ rn+ n-",
+        "code"    : [ ],
+        "spec"    : [ "http://perlcabal.org/syn/S02.html#Loop_statements" ]
       }]
   }, 
   { "section": "Classes",
@@ -791,16 +796,16 @@
                       "http://rosettacode.org/wiki/N-queens_problem#Perl_6" ],
         "spec"    : [ "http://perlcabal.org/syn/S09.html#Autothreading_types" ]
       }, {
-        "item"    : "Currying",
+        "item"    : "Priming (aka 'currying')",
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Partial_function_application#Perl_6" ],
-        "spec"    : [ "http://perlcabal.org/syn/S06.html#Currying" ]
+        "spec"    : [ "http://perlcabal.org/syn/S06.html#Priming" ]
       }, {
-        "item"    : "Whatever-currying",
+        "item"    : "Whatever-priming",
         "status"  : "rm+ rn+ n+",
         "code"    : [ "http://perl6advent.wordpress.com/2009/12/19/day-19-whatever/",
                       "http://rosettacode.org/wiki/First-class_functions#Perl_6" ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S02.html#Autopriming_of_Unary_and_Binary_Operators_with_Whatever" ]
       }, {
         "item"    : "REPL",
         "status"  : "rm+ rn+ n+",
