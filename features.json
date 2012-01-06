@@ -131,7 +131,7 @@
         "item"    : "Loops as list generators",
         "status"  : "rm+ rn+ n-",
         "code"    : [ ],
-        "spec"    : [ "http://perlcabal.org/syn/S02.html#Loop_statements" ]
+        "spec"    : [ "http://perlcabal.org/syn/S04.html#Loop_statements" ]
       }]
   }, 
   { "section": "Classes",
