@@ -182,7 +182,7 @@
         "spec"    : [ "http://perlcabal.org/syn/S12.html#Submethods" ]
       }, {
         "item"    : "Trust relationships",
-        "status"  : "rm- rn+ n-",
+        "status"  : "rm- rn+ n+",
         "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S12.html#Trusts" ]
       }, {
