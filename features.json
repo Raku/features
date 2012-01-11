@@ -207,17 +207,17 @@
         "spec"    : [ ]
       }, {
         "item"    : "Composing roles into classes",
-        "status"  : "rm+ rn+ n+- (runtime composition only)",
+        "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Parametric_polymorphism#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Composing roles into roles",
-        "status"  : "rm+ rn+ n-",
+        "status"  : "rm+ rn+ n+",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
         "item"    : "Parametric roles",
-        "status"  : "rm+ rn+ n+-",
+        "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Parametric_polymorphism#Perl_6",
                       "http://rosettacode.org/wiki/Constrained_genericity#Perl_6" ],
         "spec"    : [ ]
@@ -281,7 +281,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Unicode properties",
-        "status"  : "rm+- (outdated specification) rn+- (no set operations yet) n-",
+        "status"  : "rm+- (outdated specification) rn+- (no set operations yet) n+",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
@@ -339,7 +339,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Nested signatures",
-        "status"  : "rm+ rn+ n-",
+        "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Draw_a_cuboid#Perl_6",
                       "http://rosettacode.org/wiki/Pattern_matching#Perl_6",
                       "http://rosettacode.org/wiki/Forward_difference#Perl_6" ],
@@ -526,18 +526,18 @@
         "spec"    : [ ]
       }, {
         "item"    : "Proper narrowness analysis",
-        "status"  : "rm+ rn+ n+- (no subtypes)",
+        "status"  : "rm+ rn+ n+",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
         "item"    : "Additional constraints",
-        "status"  : "rm+ rn+ n-",
+        "status"  : "rm+ rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Pattern_matching#Perl_6",
                       "http://rosettacode.org/wiki/Detect_division_by_zero#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "nextsame, nextwith, callsame, callwith",
-        "status"  : "rm+ rn+ n+",
+        "status"  : "rm+ rn+ n+- (only for methods)",
         "code"    : [ "http://perl6advent.wordpress.com/2010/12/14/day-14-nextsame-and-its-cousins/" ],
         "spec"    : [ ]
       }]
@@ -551,17 +551,17 @@
         "spec"    : [ ]
       }, {
         "item"    : "need",
-        "status"  : "rm- rn+",
+        "status"  : "rm- rn+ n-",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
         "item"    : "require",
-        "status"  : "rm+- (no import lists) rn+- (no import lists) n+- (precompilation required)",
+        "status"  : "rm+- (no import lists) rn+- (no import lists) n-",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
         "item"    : "Basic module versioning",
-        "status"  : "rm+ rn-",
+        "status"  : "rm+ rn- n-",
         "code"    : [ ],
         "spec"    : [ ]
       } ]
@@ -761,7 +761,7 @@
     "items": [
       {
         "item"    : "BEGIN/CHECK/INIT/END",
-        "status"  : "rm+- rn+ n+-",
+        "status"  : "rm+- rn+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Compile-time_calculation#Perl_6" ],
         "spec"    : [ ]
       }, {
@@ -845,23 +845,23 @@
     "items": [
       {
         "item"    : "Introspection",
-        "status"  : "rm+ rn+",
+        "status"  : "rm+ rn+ n-",
         "code"    : [ "http://perl6advent.wordpress.com/2010/12/22/day-22-the-meta-object-protocol/",
                       "http://rosettacode.org/wiki/Inheritance/Multiple#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Adding methods",
-        "status"  : "rm+ rn+",
+        "status"  : "rm+ rn+ n+-",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
         "item"    : "Role composition",
-        "status"  : "rm+- rn+",
+        "status"  : "rm+- rn+ n-",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
         "item"    : "Overriding dispatch",
-        "status"  : "rm- rn+",
+        "status"  : "rm- rn+ n-",
         "code"    : [ ],
         "spec"    : [ ]
       } ]
