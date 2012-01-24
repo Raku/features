@@ -510,7 +510,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Protos",
-        "status"  : "rm+- (outdated specification) rn+ n-",
+        "status"  : "rm+- (outdated specification) rn+ n+- (regexes only)",
         "code"    : [ "http://rosettacode.org/wiki/Combinations#Perl_6" ],
         "spec"    : [ ]
       }, {
@@ -813,7 +813,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "MAIN",
-        "status"  : "rm+ rn+- (no help yet) n-",
+        "status"  : "rm+ rn+- (no help yet) n+",
         "code"    : [ "http://rosettacode.org/wiki/Guess_the_number/With_feedback_(player)#Perl_6",
                       "http://perl6advent.wordpress.com/2010/12/02/day-2-interacting-with-the-command-line-with-main-subs/" ],
         "spec"    : [ "http://perlcabal.org/syn/S06.html#Declaring_a_MAIN_subroutine" ]
