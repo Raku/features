@@ -433,7 +433,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Probabalistic (rand, pick, roll)",
-        "status"  : "r+ n+-",
+        "status"  : "r+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Evolutionary_algorithm#Perl_6" ],
         "spec"    : [ ]
       }, {
@@ -445,7 +445,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Object hashes, Sets, KeySet, KeyBag, ...",
-        "status"  : "r- n-",
+        "status"  : "r- n+- (No object hashes yet)",
         "code"    : [ "http://rosettacode.org/wiki/Pangram_checker#Perl_6" ],
         "spec"    : [ ]
       }, {
