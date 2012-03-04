@@ -437,7 +437,7 @@
         "code"    : [ "http://rosettacode.org/wiki/Evolutionary_algorithm#Perl_6" ],
         "spec"    : [ ]
       }, {
-        "item"    : "printf, .fmt",
+        "item"    : "sprintf, .fmt",
         "status"  : "r+ n+-",
         "code"    : [ "http://perl6advent.wordpress.com/2009/12/02/day-2-the-beauty-of-formatting/",
                       "http://rosettacode.org/wiki/Formatted_numeric_output#Perl_6",
