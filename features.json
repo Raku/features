@@ -445,7 +445,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Object hashes, Sets, KeySet, KeyBag, ...",
-        "status"  : "r+- (Object hashes only) n+- (No object hashes yet)",
+        "status"  : "r+ n+- (No object hashes yet)",
         "code"    : [ "http://rosettacode.org/wiki/Pangram_checker#Perl_6" ],
         "spec"    : [ ]
       }, {
