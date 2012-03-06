@@ -767,7 +767,7 @@
                       "http://rosettacode.org/wiki/Detect_division_by_zero#Perl_6" ]
       }, {
         "item"    : "ENTER/LEAVE",
-        "status"  : "r+- (ENTER only) n+",
+        "status"  : "r+ n+",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
