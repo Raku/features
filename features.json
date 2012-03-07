@@ -719,11 +719,16 @@
         "spec"    : [ ]
       }, {
         "item"    : "Basic macros",
-        "status"  : "r- n-",
+        "status"  : "r+- (no placeholders yet) n-",
         "code"    : [ "http://rosettacode.org/wiki/Metaprogramming#Perl_6" ],
         "spec"    : [ ]
       }, {
-        "item"    : "Hygienic macros",
+        "item"    : "Macro hygiene",
+        "status"  : "r- n-",
+        "code"    : [ ],
+        "spec"    : [ ]
+      }, {
+        "item"    : "Delayed declarations",
         "status"  : "r- n-",
         "code"    : [ ],
         "spec"    : [ ]
