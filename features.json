@@ -782,7 +782,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "PRE/POST",
-        "status"  : "r- n+- (no submethod form)",
+        "status"  : "r+ n+",
         "code"    : [ ],
         "spec"    : [ ]
       } ]
