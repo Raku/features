@@ -404,6 +404,9 @@
                       "http://rosettacode.org/wiki/Levenshtein_distance#Perl_6" ],
         "spec"    : [ "http://perlcabal.org/syn/S32/Containers.html" ]
       }, {
+        "item"    : "Autovivificaton",
+        "status"  : "r- n+"
+      }, {
         "item"    : "Lazy lists, gather/take",
         "status"  : "r+ n+",
         "code"    : [ "http://perl6advent.wordpress.com/category/2009/",
