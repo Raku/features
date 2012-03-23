@@ -894,7 +894,6 @@
         "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S02.html#User-selected_Brackets" ]
       }, {
-      {
         "item"    : "Heredocs",
         "status"  : "r- n+",
         "code"    : [ ],
