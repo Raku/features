@@ -894,6 +894,12 @@
         "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S02.html#User-selected_Brackets" ]
       }, {
+      {
+        "item"    : "Heredocs",
+        "status"  : "r- n+",
+        "code"    : [ ],
+        "spec"    : [ "http://perlcabal.org/syn/S02.html#Heredocs" ],
+      }, {
         "item"    : "Unspaces",
         "status"  : "r+ n+",
         "code"    : [ ],
