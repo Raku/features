@@ -834,12 +834,12 @@
         "spec"    : [ "http://perlcabal.org/syn/S28.html#Named_variables" ]
       }, {
         "item"    : "PROCESS, GLOBAL, CALLER, DYNAMIC",
-        "status"  : "r+- n+",
+        "status"  : "r+ n+",
         "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S02.html#Names" ]
       }, {
         "item"    : "CORE, SETTING, UNIT, OUTER, MY, OUR",
-        "status"  : "r- n+",
+        "status"  : "r+- (only OUTER, MY, OUR) n+",
         "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S02.html#Names" ]
       } ]
