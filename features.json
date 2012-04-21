@@ -839,7 +839,7 @@
         "spec"    : [ "http://perlcabal.org/syn/S02.html#Names" ]
       }, {
         "item"    : "CORE, SETTING, UNIT, OUTER, MY, OUR",
-        "status"  : "r+- (only OUTER, MY, OUR) n+",
+        "status"  : "r+ n+",
         "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S02.html#Names" ]
       } ]
