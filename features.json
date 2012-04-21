@@ -405,7 +405,7 @@
         "spec"    : [ "http://perlcabal.org/syn/S32/Containers.html" ]
       }, {
         "item"    : "Autovivificaton",
-        "status"  : "r- n+"
+        "status"  : "r+ n+"
       }, {
         "item"    : "Lazy lists, gather/take",
         "status"  : "r+ n+",
