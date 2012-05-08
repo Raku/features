@@ -626,7 +626,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Flipflop",
-        "status"  : "r+- (only ff versions, no fff) n+",
+        "status"  : "r+ n+",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
