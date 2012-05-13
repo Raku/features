@@ -229,7 +229,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Enums",
-        "status"  : "r+- n+",
+        "status"  : "r+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Enumerations#Perl_6",
                       "http://rosettacode.org/wiki/Forest_fire#Perl_6" ],
         "spec"    : [ ]
