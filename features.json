@@ -552,7 +552,7 @@
     "items": [
       {
         "item"    : "use",
-        "status"  : "r+- (limited import lists) n+- (no import lists)",
+        "status"  : "r+ n+- (no import lists)",
         "code"    : [ "http://rosettacode.org/wiki/JSON#Perl_6" ],
         "spec"    : [ ]
       }, {
