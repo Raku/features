@@ -562,7 +562,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "require",
-        "status"  : "r+- (no import lists) n-",
+        "status"  : "r+ n-",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
@@ -905,7 +905,7 @@
         "spec"    : [ "http://perlcabal.org/syn/S02.html#Unspaces" ]
       }, {
         "item"    : "Pod",
-        "status"  : "r+ n+- (parsing only, no $=POD)",
+        "status"  : "r+ n+- (parsing only, no $=pod)",
         "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S26.html" ]
       } ]
