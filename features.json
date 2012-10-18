@@ -890,7 +890,7 @@
         "spec"    : [ "http://perlcabal.org/syn/S02.html#Bracketing_Characters" ]
       }, {
         "item"    : "User-selected Brackets",
-        "status"  : "r+- (nested pairs not counted) n+",
+        "status"  : "r+ n+",
         "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S02.html#User-selected_Brackets" ]
       }, {
