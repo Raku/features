@@ -631,7 +631,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Interpolating word list",
-        "status"  : "r- n+",
+        "status"  : "r+ n+",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
@@ -717,7 +717,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Precedence and associativity of new operators",
-        "status"  : "r- n+",
+        "status"  : "r+- (still some bugs) n+",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
