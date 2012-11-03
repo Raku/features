@@ -722,7 +722,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Basic macros",
-        "status"  : "r+- (no placeholders yet) n-",
+        "status"  : "r+ n-",
         "code"    : [ "http://rosettacode.org/wiki/Metaprogramming#Perl_6" ],
         "spec"    : [ ]
       }, {
