@@ -727,7 +727,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Macro hygiene",
-        "status"  : "r- n-",
+        "status"  : "r+ n-",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
