@@ -780,7 +780,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "FIRST/NEXT/LAST",
-        "status"  : "r+- (only in for loops) n-",
+        "status"  : "r+ n-",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
