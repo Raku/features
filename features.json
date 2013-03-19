@@ -292,7 +292,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Variable interpolation",
-        "status"  : "r+- (only scalars) n+",
+        "status"  : "r+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Multisplit#Perl_6" ],
         "spec"    : [ ]
       }, {
