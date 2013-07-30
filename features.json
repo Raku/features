@@ -747,7 +747,7 @@
     "items": [
       {
         "item"    : "Basic threads",
-        "status"  : "r- n+",
+        "status"  : "r+- (only JVM) n+",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
