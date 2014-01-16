@@ -290,7 +290,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Unicode properties",
-        "status"  : "rp+- rj+- rm+- (no set operations yet) n+",
+        "status"  : "rp+- (no set operations yet) rj+- (no set operations yet) rm+- (no set operations yet) n+",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
@@ -362,7 +362,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Argument coercion",
-        "status"  : "rp+ rj+ rm+ (outdated specification) n-",
+        "status"  : "rp+ (outdated specification) rj+ (outdated specification) rm+ (outdated specification) n-",
         "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S02.html#Coercive_type_declarations" ]
       }, {
@@ -650,7 +650,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Logic cascade (andthen, orelse)",
-        "status"  : "rp+- rj+- rm+- (missing exception semantics) n+",
+        "status"  : "rp+- (missing exception semantics) rj+- (missing exception semantics) rm+- (missing exception semantics) n+",
         "code"    : [ ],
         "spec"    : [ ]
       }]
@@ -731,7 +731,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Precedence and associativity of new operators",
-        "status"  : "rp+- rj+- rm+- (still some bugs) n+",
+        "status"  : "rp+- (still some bugs) rj+- (still some bugs) rm+- (still some bugs) n+",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
@@ -755,7 +755,7 @@
     "items": [
       {
         "item"    : "Basic threads",
-        "status"  : "rp- rj+ rm- (only JVM) n+",
+        "status"  : "rp- rj+ rm- n+",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
