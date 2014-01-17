@@ -101,7 +101,7 @@
       }, {
         "item"    : "Arrow blocks (lambdas)",
         "status"  : "rp+ rj+ rm+ n+",
-        "code"    : [ "http://rosettacode.org/wiki/Higherp- rj- rm-order_functions#Perl_6",
+        "code"    : [ "http://rosettacode.org/wiki/Higher-order_functions#Perl_6",
                       "http://rosettacode.org/wiki/Range_expansion#Perl_6" ],
         "spec"    : [ "http://perlcabal.org/syn/S06.html#%22Pointy_blocks%22" ]
       }, {
@@ -556,7 +556,7 @@
       }, {
         "item"    : "Overloading built-in operators",
         "status"  : "rp+ rj+ rm+ n-",
-        "code"    : [ "http://perl6advent.wordpress.com/2009/12/22/day-22-operatorp- rj- rm-overloading/",
+        "code"    : [ "http://perl6advent.wordpress.com/2009/12/22/day-22-operator-overloading/",
                       "http://rosettacode.org/wiki/Quaternion_type#Perl_6",
 		      "http://rosettacode.org/wiki/Matrix-exponentiation_operator#Perl_6" ],
         "spec"    : [ ]
@@ -839,7 +839,7 @@
         "code"    : [ "http://rosettacode.org/wiki/Partial_function_application#Perl_6" ],
         "spec"    : [ "http://perlcabal.org/syn/S06.html#Priming" ]
       }, {
-        "item"    : "Whateverp- rj- rm-priming",
+        "item"    : "Whatever-priming",
         "status"  : "rp+ rj+ rm+ n+",
         "code"    : [ "http://perl6advent.wordpress.com/2009/12/19/day-19-whatever/",
                       "http://rosettacode.org/wiki/First-class_functions#Perl_6" ],
@@ -923,10 +923,10 @@
         "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S02.html#Bracketing_Characters" ]
       }, {
-        "item"    : "Userp- rj- rm-selected Brackets",
+        "item"    : "User-selected Brackets",
         "status"  : "rp+ rj+ rm+ n+",
         "code"    : [ ],
-        "spec"    : [ "http://perlcabal.org/syn/S02.html#Userp- rj- rm-selected_Brackets" ]
+        "spec"    : [ "http://perlcabal.org/syn/S02.html#User-selected_Brackets" ]
       }, {
         "item"    : "Heredocs",
         "status"  : "rp+ rj+ rm+ n+",
