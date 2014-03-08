@@ -846,7 +846,7 @@
         "spec"    : [ "http://perlcabal.org/syn/S02.html#Autopriming_of_Unary_and_Binary_Operators_with_Whatever" ]
       }, {
         "item"    : "REPL",
-        "status"  : "rp+ rj+ rm- n+",
+        "status"  : "rp+ rj+ rm+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Interactive_programming#Perl_6" ],
         "spec"    : [ ]
       }, {
@@ -857,7 +857,7 @@
         "spec"    : [ "http://perlcabal.org/syn/S06.html#Declaring_a_MAIN_subroutine" ]
       }, {
         "item"    : "run, qx",
-        "status"  : "rp+ rj+ rm- n-",
+        "status"  : "rp+ rj+ rm+ n-",
         "code"    : [ "http://rosettacode.org/wiki/Execute_a_system_command#Perl_6" ],
         "spec"    : [ "http://perlcabal.org/syn/S29.html#OS",
 	              "http://perlcabal.org/syn/S02.html#Literals" ]
