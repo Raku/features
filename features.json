@@ -755,32 +755,32 @@
     "items": [
       {
         "item"    : "Basic threads",
-        "status"  : "rp- rj+ rm- n+",
+        "status"  : "rp- rj+ rm+ n+",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
         "item"    : "Synchronization",
-        "status"  : "rp- rj+- rm- n+-",
+        "status"  : "rp- rj+- rm+- n+-",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
         "item"    : "start blocks",
-        "status"  : "rp- rj+ rm- n-",
+        "status"  : "rp- rj+ rm+ n-",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
         "item"    : "Promises",
-        "status"  : "rp- rj+ rm- n-",
+        "status"  : "rp- rj+ rm+- (Missing time-based) n-",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
         "item"    : "Channels",
-        "status"  : "rp- rj+ rm- n-",
+        "status"  : "rp- rj+ rm+ n-",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
         "item"    : "Supplies",
-        "status"  : "rp- rj+- rm- n-",
+        "status"  : "rp- rj+- rm+- (Missing time-based) n-",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
