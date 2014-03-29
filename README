@@ -2,6 +2,7 @@ Feature overview matrix for Perl 6 compilers
 
 This is an attempt to collect an overview of implemented features in
 contemporary Perl 6 compilers.
+It powers the web page http://perl6.org/compilers/features .
 
 The idea is to have a concise and easy-to-write source file which contains the
 data, and a script that converts this information into a format that is easy
@@ -23,3 +24,7 @@ very forgiving.
 
 Your contribution is very welcome. Please join our discussions in #perl6,
 http://perl6.org/community/irc
+
+A cron job automatically updates the web page at
+http://perl6.org/compilers/features from this repository. It runs at least
+once per hour. 
