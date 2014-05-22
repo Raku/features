@@ -138,9 +138,14 @@
         "spec"    : [ "http://perlcabal.org/syn/S04.html#Loop_statements" ]
       }, {
         "item"    : "Labeled loops",
-        "status"  : "rp- rj- rm- n-",
+        "status"  : "rp+ rj+ rm+ n-",
         "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S04.html#Loop_statements" ]
+      }, {
+        "item"    : "goto",
+        "status"  : "rp- rj- rm- n-",
+        "code"    : [ ],
+        "spec"    : [ "http://perlcabal.org/syn/S04.html#The_goto_statement" ]
       }]
   }, 
   { "section": "Classes",
