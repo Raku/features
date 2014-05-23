@@ -729,7 +729,7 @@
         "item"    : "Defining new operators",
         "status"  : "rp+ rj+ rm+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Function_composition#Perl_6", 
-                      "http://rosettacode.org/wiki/Exponentiation_operator.html#Perl_6", 
+                      "http://rosettacode.org/wiki/Exponentiation_operator#Perl_6", 
                       "http://rosettacode.org/wiki/Generator#Perl_6", 
                       "http://rosettacode.org/wiki/Evaluate_binomial_coefficients#Perl_6", 
                       "http://rosettacode.org/wiki/Combinations_with_repetitions#Perl_6" ],
