@@ -775,7 +775,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Promises",
-        "status"  : "rp- rj+ rm+- (Missing time-based) n-",
+        "status"  : "rp- rj+ rm+ n-",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
@@ -785,7 +785,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Supplies",
-        "status"  : "rp- rj+- rm+- (Missing time-based) n-",
+        "status"  : "rp- rj+- rm+ n-",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
