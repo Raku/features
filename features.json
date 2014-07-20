@@ -947,6 +947,11 @@
         "status"  : "rp+ rj+ rm+ n+- (parsing only, no $=pod)",
         "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S26.html" ]
+      }, {
+        "item"    : "Indirect method calls",
+        "status"  : "rp- rj- rm- n-",
+        "code"    : [ ],
+        "spec"    : [ "http://perlcabal.org/syn/S12.html#Method_calls" ]
       } ]
   } ]
 }
