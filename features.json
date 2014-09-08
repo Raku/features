@@ -881,6 +881,11 @@
         "status"  : "rp+ rj+ rm+ n+",
         "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S02.html#Names" ]
+      }, {
+        "item"    : "DESTROY",
+        "status"  : "rp- rj- rm+ n-",
+        "code"    : [ ],
+        "spec"    : [ ]
       } ]
   },
   {
