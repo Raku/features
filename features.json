@@ -323,7 +323,7 @@
         "item"    : "Matching streams",
         "status"  : "rp- rj- rm- n-",
         "code"    : [ ],
-        "spec"    : [ ]
+        "spec"    : [ "http://perlcabal.org/syn/S05.html#Matching_against_non-strings" ]
       } ]
   },
   { "section": "Signatures",
