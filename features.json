@@ -320,7 +320,7 @@
         "code"    : [ "http://rosettacode.org/wiki/Read_a_configuration_file#Perl_6" ],
         "spec"    : [ ]
       }, {
-        "item"    : "Double colon LTA stopper",
+        "item"    : "Double colon LTM stopper",
         "status"  : "rp- rj- rm- n+",
         "code"    : [ ],
         "spec"    : [ "http://perlcabal.org/syn/S05.html#Backtracking_control" ]
