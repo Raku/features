@@ -656,7 +656,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Logic cascade (andthen, orelse)",
-        "status"  : "rj+- (missing exception semantics) rm+- (missing exception semantics) n+",
+        "status"  : "rj+ rm+ n+",
         "code"    : [ ],
         "spec"    : [ ]
       }]
