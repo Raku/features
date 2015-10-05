@@ -1,12 +1,18 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Feature comparison of Perl 6 compilers</title>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <style type="text/css">
-        @import url("http://perl6.org/style.css");
+    <link href="http://perl6.org/favicon.ico" rel="shortcut icon"
+        type="image/x-icon">
+    <link href="http://perl6.org/bootstrap/css/bootstrap.min.css"
+        rel="stylesheet">
+    <link href="http://perl6.org/bootstrap/css/bootstrap-theme.min.css"
+        rel="stylesheet">
+    <link href="http://perl6.org/style.css" rel="stylesheet">
+    <style>
         .implemented, .implemented a {
             background-color: #3c3;
             color:            white;
@@ -40,29 +46,53 @@
             font-size:  smaller;
             font-style: italic;
         }
-        .footnote_link { 
+        .footnote_link {
             font-size: 70%;
-            position:  absolute; 
+            position:  absolute;
         }
         .footnotes li { margin-bottom:0em; }
         :target {
             background-color: #FFFF66;
         }
     </style>
-
+    [% ifvar sitecss %]
+      <style>[% readvar sitecss %]</style>
+    [% endifvar %]
 </head>
 <body>
-    <div id="navigation">
-        <ul>
-          <li id="nav-home"     ><a href="/">Home</a></li>
-          <li id="nav-community"><a href="/community/">Community</a></li>
-          <li id="nav-specs"    ><a href="/specification/">Specification</a></li>
-          <li id="nav-compilers" class="active"><a href="/compilers/">Compilers</a></li>
-          <li id="nav-docs"     ><a href="/documentation/">Documentation</a></li>
-          <li id="nav-fun"      ><a href="/fun/">Fun</a></li>
-          <li id="nav-whatever" ><a href="/whatever/">Whatever</a></li>
-        </ul>
-    </div>
+<div class="bg">
+  <div class="container">
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed"
+            data-toggle="collapse" data-target="#navbar"
+            aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li id="nav-home"><a href="http://perl6.org/">Home</a></li>
+            <li id="nav-community"><a href="http://perl6.org/community/"
+                >Community</a></li>
+            <li id="nav-docs"><a href="http://perl6.org/documentation/"
+                >Documentation</a></li>
+            <li id="nav-specs"><a href="http://perl6.org/specification/"
+                >Design</a></li>
+            <li id="nav-compilers" class="active"
+                ><a href="http://perl6.org/compilers/">Compilers</a></li>
+            <li id="nav-fun"><a href="http://perl6.org/fun/">Fun</a></li>
+            <li id="nav-whatever"><a href="http://perl6.org/whatever/"
+                >Whatever</a></li>
+            <li id="nav-faq"><a href="http://faq.perl6.org/">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <div id="subpage-header" style='width:880px'>
         <img src="http://perl6.org/camelia-logo-small.png" width="140" height="130"
@@ -85,7 +115,7 @@
 
     <p><small><a href='#pugs'>Why isn't Pugs listed here?</a></small></p>
     <h2>Features</h2>
-    <table>
+    <table class="table table-condensed">
         <thead>
             <tr>
                 <th>Feature</th>
@@ -97,7 +127,8 @@
         </thead>
         <tbody>
             <%loop sections%>
-            <tr><th class="subsection" id="<%var section escape=url%>"><%var section%></th></tr>
+            <tr><th class="subsection" style="padding-top: 20px"
+                id="<%var section escape=url%>"><%var section%></th></tr>
                 <%loop items%>
                     <tr><td style="border-bottom:1px dotted #98CAEB"><%var item%></td>
                     <%loop ratings%>
@@ -109,7 +140,7 @@
                             <a href='<%var spec%>'>spec</a>
                         <%/loop%>
                         <%loop code%>
-                            <a href='<%var code%>'>code</a> 
+                            <a href='<%var code%>'>code</a>
                         <%/loop%>
                     </td>
                     </tr>
@@ -129,11 +160,11 @@
     the latest development versions of the compilers, not that of the latest
     release.</p>
 
-    <p><a id='pugs' name='pugs'></a>A note about Pugs:  
-    <a href='http://pugscode.org/'>Pugs</a> is a 
-    Perl 6 compiler written in Haskell, based largely on much older 
-    versions of the Perl 6 specification.  Because Pugs is not being 
-    actively maintained, many things are "broken" and it's not really 
+    <p><a id='pugs' name='pugs'></a>A note about Pugs:
+    <a href='http://pugscode.org/'>Pugs</a> is a
+    Perl 6 compiler written in Haskell, based largely on much older
+    versions of the Perl 6 specification.  Because Pugs is not being
+    actively maintained, many things are "broken" and it's not really
     a useful comparison for this chart.</p>
 
     <hr />
@@ -156,6 +187,76 @@
         The data to generate this page was last updated <%var when%>;
         The page itself was updated <%var now%>
     </p>
+
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <section class="col-sm-6 col-md-5ths">
+        <h4><a href="http://perl6.org/community/">Community</a></h4>
+        <ul class="shush-list">
+          <li><a href="http://perl6.org/community/irc">#perl6 IRC channel</a>: <a href="irc://irc.freenode.net/%23perl6">system IRC client</a>
+          or&nbsp;<a href="http://webchat.freenode.net/?channels=perl6&amp;nick=">chat live in your browser</a></li>
+          <li><a href="http://perl6.org/community/rosettacode">Perl&nbsp;6 on Rosetta Code</a>, <a href="http://pl6anet.org/">Blogs</a></li>
+        </ul>
+
+        <a href="http://perl6.org/community/" class="btn btn-success">More</a>
+      </section>
+
+      <section class="col-sm-6 col-md-5ths">
+        <h4><a href="http://perl6.org/documentation/">Documentation</a></h4>
+        <ul class="shush-list">
+          <li><a href="http://perl6.org/getting-started/"
+            >Getting started</a></li>
+          <li><a href="http://doc.perl6.org/">Perl&nbsp;6 Documentation</a></li>
+          <li><a href="http://doc.perl6.org/language/5to6">Perl&nbsp;5 to 6</a>,
+              an introduction for Perl&nbsp;5 programmers</li>
+        </ul>
+          <a href="http://perl6.org/documentation/"
+            class="btn btn-success">More</a>
+      </section>
+
+      <section class="col-sm-6 col-md-5ths">
+        <h4><a href="http://perl6.org/whatever/">Modules</a></h4>
+
+        <ul class="shush-list">
+          <li><a href="http://modules.perl6.org/">Perl&nbsp;6 modules
+              directory</a></li>
+          <li><a href="https://github.com/tadzik/panda/">Panda</a>, a
+          module installer for Rakudo</li>
+        </ul>
+
+        <a href="http://perl6.org/whatever/" class="btn btn-success">More</a>
+      </section>
+
+      <section class="col-sm-6 col-md-5ths">
+        <h4><a href="http://perl6.org/compilers/">Compilers</a></h4>
+        <ul class="shush-list">
+            <li><a href="http://rakudo.org/">Rakudo</a>, a compiler running on
+                <a href="http://moarvm.com/">MoarVM</a>,
+                 the JVM and other backends.</li>
+        </ul>
+        <a href="http://perl6.org/compilers/" class="btn btn-success">More</a>
+      </section>
+
+      <section class="col-sm-6 col-md-5ths">
+        <h4><a href="http://perl6.org/specification/">Language Design</a></h4>
+        <ul class="shush-list">
+          <li><a href="http://design.perl6.org/">Synopsis</a> - official Perl&nbsp;6 design documents</li>
+          <li><a href="http://perl6.org/compilers/std-viv"
+            >STD.pm</a> - official Perl&nbsp;6 grammar</li>
+        </ul>
+        <a href="http://perl6.org/specification/"
+            class="btn btn-success">More</a>
+      </section>
+    </div>
+  </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://perl6.org/bootstrap/js/bootstrap.min.js"></script>
+<script src="http://perl6.org/js.js"></script>
 
 </body>
 </html>
