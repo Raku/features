@@ -115,42 +115,40 @@
 
     <p><small><a href='#pugs'>Why isn't Pugs listed here?</a></small></p>
     <h2>Features</h2>
-    <div class="container-responsive">
-        <div class="table-responsive">
-            <table class="table table-condensed">
-                <thead>
-                    <tr>
-                        <th>Feature</th>
-                        <%loop compilers%>
-                        <th><a href="<%var url%>"><%var name%></a></th>
-                        <%/loop%>
-                        <th>Links</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <%loop sections%>
-                    <tr><th class="subsection" style="padding-top: 20px"
-                        id="<%var section escape=url%>"><%var section%></th></tr>
-                        <%loop items%>
-                            <tr><td style="border-bottom:1px dotted #98CAEB"><%var item%></td>
-                            <%loop ratings%>
-                            <td><div class="<%var class%>"><%var status%><%if footnote%><sup class="footnote_link">&nbsp;<a href="#footnote_<%var footnote%>" title="<%var foottext%>"><%var footnote%></a></sup><%/if%>
-                                </div></td>
-                            <%/loop%>
-                            <td>
-                                <%loop spec%>
-                                    <a href='<%var spec%>'>spec</a>
-                                <%/loop%>
-                                <%loop code%>
-                                    <a href='<%var code%>'>code</a>
-                                <%/loop%>
-                            </td>
-                            </tr>
-                        <%/loop%>
+    <div class="table-responsive">
+        <table class="table table-condensed">
+            <thead>
+                <tr>
+                    <th>Feature</th>
+                    <%loop compilers%>
+                    <th><a href="<%var url%>"><%var name%></a></th>
                     <%/loop%>
-                </tbody>
-            </table>
-        </div>
+                    <th>Links</th>
+                </tr>
+            </thead>
+            <tbody>
+                <%loop sections%>
+                <tr><th class="subsection" style="padding-top: 20px"
+                    id="<%var section escape=url%>"><%var section%></th></tr>
+                    <%loop items%>
+                        <tr><td style="border-bottom:1px dotted #98CAEB"><%var item%></td>
+                        <%loop ratings%>
+                        <td><div class="<%var class%>"><%var status%><%if footnote%><sup class="footnote_link">&nbsp;<a href="#footnote_<%var footnote%>" title="<%var foottext%>"><%var footnote%></a></sup><%/if%>
+                            </div></td>
+                        <%/loop%>
+                        <td>
+                            <%loop spec%>
+                                <a href='<%var spec%>'>spec</a>
+                            <%/loop%>
+                            <%loop code%>
+                                <a href='<%var code%>'>code</a>
+                            <%/loop%>
+                        </td>
+                        </tr>
+                    <%/loop%>
+                <%/loop%>
+            </tbody>
+        </table>
     </div>
 
     <h3>Footnotes</h3>
