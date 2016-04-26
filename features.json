@@ -873,7 +873,7 @@
         "code"    : [ ],
         "spec"    : [ "http://design.perl6.org/S02.html#Names" ]
       }, {
-        "item"    : "CORE, SETTING, UNIT, OUTER, MY, OUR",
+        "item"    : "CORE, SETTING, UNIT, OUTER, MY, OUR, CLIENT",
         "status"  : "rj+ rm+ n+",
         "code"    : [ ],
         "spec"    : [ "http://design.perl6.org/S02.html#Names" ]
