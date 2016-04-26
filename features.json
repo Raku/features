@@ -474,8 +474,8 @@
                       "http://design.perl6.org/S02.html#Native_buf_Types",
                       "http://design.perl6.org/S02.html#The_utf8_Type" ]
       }, {
-        "item"    : "NFG as default, StrPos/StrLen",
-        "status"  : "rj- rm- n-",
+        "item"    : "NFG as default",
+        "status"  : "rj- rm+ n-",
         "code"    : [ ],
         "spec"    : [ "http://design.perl6.org/S02.html#The_StrPos_Type",
                       "http://design.perl6.org/S02.html#The_StrLen_Type" ]
