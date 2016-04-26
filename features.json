@@ -95,7 +95,7 @@
         "code"    : [ "http://rosettacode.org/wiki/Jensen%27s_Device#Perl_6" ],
         "spec"    : [ "http://design.perl6.org/S06.html#Blocks" ]
       }, {
-        "item"    : "Arrow blocks (lambdas)",
+        "item"    : "Pointy blocks (lambdas)",
         "status"  : "rj+ rm+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Higher-order_functions#Perl_6",
                       "http://rosettacode.org/wiki/Range_expansion#Perl_6" ],
