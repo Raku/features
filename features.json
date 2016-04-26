@@ -494,12 +494,12 @@
         "spec"    : [ ]
       }, {
         "item"    : "Compact arrays",
-        "status"  : "rj- rm- n-",
+        "status"  : "rj+ rm+ n-",
         "code"    : [ ],
         "spec"    : "http://design.perl6.org/S09.html#Compact_arrays"
       }, {
         "item"    : "Shaped arrays/hashes",
-        "status"  : "rj- rm- n-",
+        "status"  : "rj+- (no partial views, no hashes) rm+- (no partial views, no hashes) n-",
         "code"    : [ ],
         "spec"    : "http://design.perl6.org/S09.html#Fixed-size_arrays"
       }, {
