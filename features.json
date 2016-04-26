@@ -582,7 +582,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Basic module versioning",
-        "status"  : "rj- rm- n-",
+        "status"  : "rj+- rm+- n-",
         "code"    : [ ],
         "spec"    : [ ]
       } ]
