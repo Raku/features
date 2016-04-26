@@ -468,7 +468,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Buf, buf, utf8",
-        "status"  : "rj+- rm+- n-",
+        "status"  : "rj+ rm+ n-",
         "code"    : [ ],
         "spec"    : [ "http://design.perl6.org/S32/Containers.html#Buf",
                       "http://design.perl6.org/S02.html#Native_buf_Types",
