@@ -731,8 +731,8 @@
                       "http://rosettacode.org/wiki/Combinations_with_repetitions#Perl_6" ],
         "spec"    : [ ]
       }, {
-        "item"    : "Precedence and associativity of new operators",
-        "status"  : "rj+- (still some bugs) rm+- (still some bugs) n+",
+        "item"    : "Precedence, thunkiness, and associativity of new operators",
+        "status"  : "rj+ rm+ n+",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
