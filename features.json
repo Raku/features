@@ -737,12 +737,12 @@
         "spec"    : [ ]
       }, {
         "item"    : "Basic macros",
-        "status"  : "rj+ rm+ n-",
+        "status"  : "rj+- (pending redesign in the language) rm+- (pending redesign in the language) n-",
         "code"    : [ "http://rosettacode.org/wiki/Metaprogramming#Perl_6" ],
         "spec"    : [ ]
       }, {
         "item"    : "Macro hygiene",
-        "status"  : "rj+ rm+ n-",
+        "status"  : "rj+- rm+- n-",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
