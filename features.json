@@ -761,7 +761,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Synchronization",
-        "status"  : "rj+- rm+- n+-",
+        "status"  : "rj+ rm+ n+-",
         "code"    : [ ],
         "spec"    : [ ]
       }, {
