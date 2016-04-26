@@ -437,11 +437,6 @@
                       "http://rosettacode.org/wiki/Generator#Perl_6" ],
         "spec"    : [ ]
       }, {
-        "item"    : "LoL",
-        "status"  : "rj+- rm+- n-",
-        "code"    : [ ],
-        "spec"    : [ ]
-      }, {
         "item"    : "Ranges",
         "status"  : "rj+ rm+ n+",
         "code"    : [ "http://rosettacode.org/wiki/Integer_sequence#Perl_6",
