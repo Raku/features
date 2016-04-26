@@ -791,7 +791,7 @@
         "spec"    : [ ]
       }, {
         "item"    : "Feed operators",
-        "status"  : "rj+- rm+- n-",
+        "status"  : "rj+- (don't automatically multi-thread yet) rm+- (don't automatically multi-thread yet) n-",
         "code"    : [ "http://perl6advent.wordpress.com/2010/12/10/day-10-feed-operators/" ],
         "spec"    : [ ]
       } ]
