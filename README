@@ -1,8 +1,8 @@
-Feature overview matrix for Perl 6 compilers
+Feature overview matrix for Raku compilers
 
 This is an attempt to collect an overview of implemented features in
-contemporary Perl 6 compilers.
-It powers the web page http://perl6.org/compilers/features .
+contemporary Raku compilers.
+It powers the web page http://raku.org/compilers/features .
 
 The idea is to have a concise and easy-to-write source file which contains the
 data, and a script that converts this information into a format that is easy
@@ -14,7 +14,7 @@ to standard output, or to the filename specified on the command line.
 
 A feature should appear in the table if any of the following applies:
  * it is very useful to the end user
- * it is a distinguished Perl 6 feature (e.g. grammars, junctions)
+ * it is a distinguished Raku feature (e.g. grammars, junctions)
  * it is hard to implement
  * it showcases differences between compilers
  * its implementation drives spec development
@@ -22,9 +22,9 @@ A feature should appear in the table if any of the following applies:
 The "forgiveness > permission" principle applies, and the authors are
 very forgiving.
 
-Your contribution is very welcome. Please join our discussions in #perl6,
-http://perl6.org/community/irc
+Your contribution is very welcome. Please join our discussions in #raku,
+http://raku.org/community/irc
 
 A cron job automatically updates the web page at
-http://perl6.org/compilers/features from this repository. It runs at least
+http://raku.org/compilers/features from this repository. It runs at least
 once per hour. 
